@@ -1,0 +1,37 @@
+title: Colton Brown 
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Colton Brown makes creative work across technology, music and design.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: false
+  writing:
+    output: false
+  programms:
+    output: false
+  experience:
+    output: false
+  music:
+    output: false
+  other:
+    output: false
+
+  
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
