@@ -17,14 +17,9 @@ layout: default
       <div style="display:flex">{%- include icon-notion.svg -%}<a href="{{p.url | relative_url}}"><h3 style="margin-bottom: 5px;">{{p.title}}</h3></a></div>
       {%- if p.description -%}
         <div>{{p.description}}</div>
-        {%- elsif p.excerpt.size != 0 -%}
-        <div>{{p.excerpt}}</div>
       {%- endif -%}
       {%- if p.role -%}
         <div>Role: {{p.role}}</div>
-      {%- endif -%}
-      {%- if p.link -%}
-        <a href="{{p.link}}">{{p.link}}</a>
       {%- endif -%}
   </li>
   {%- endfor -%}
