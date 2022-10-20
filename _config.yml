@@ -11,17 +11,17 @@ plugins:
 
 collections:
   projects:
-    output: false
+    output: true
   writing:
-    output: false
-  programms:
-    output: false
+    output: true
+  programs:
+    output: true
   experience:
-    output: false
+    output: true
   music:
-    output: false
+    output: true
   other:
-    output: false
+    output: true
 
   
 exclude:
