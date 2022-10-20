@@ -14,7 +14,7 @@ layout: default
 <ul>
   {%- for p in site[item.name] -%}
   <li style="margin-bottom: 20px">
-      <div style="display:flex">{%- include icon-notion.svg -%}<a href="{{p.url}}"><h3 style="margin-bottom: 5px;">{{p.title}}</h3></a></div>
+      <div style="display:flex">{%- include icon-notion.svg -%}<a href="{{p.url | relative_url}}"><h3 style="margin-bottom: 5px;">{{p.title}}</h3></a></div>
       {%- if p.description -%}
         <div>{{p.description}}</div>
         {%- elsif p.excerpt.size != 0 -%}
