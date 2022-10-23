@@ -2,3 +2,131 @@
 layout: post
 title: Personal Site
 ---
+
+Experience
+
+- Founder - MagicEye
+    - Investments
+        - Looking to invest in early-stage companies building the next generation of the web and saas product
+        - Focus areas: digital community, arts, music, creativity
+    - Work
+        - Mailto.mx
+            - tbd
+        - Music thing
+            - tbd
+        - Writey Drawey
+            - writeydrawey.site
+        - Volley Studio
+            - new.volleystudio.us
+- Freelance Web Developer
+    - Neighby
+        - pdf
+    - Point in Passing
+    - 9MillionReasons
+        - [https://www.9millionreasons.nyc/](https://www.9millionreasons.nyc/)
+    - Blueland (with The Couch)
+        - [https://www.blueland.com/](https://www.blueland.com/)
+    - Fey Arts
+        - [https://fey-arts.com/](https://fey-arts.com/)
+    - OOO (with 4GM)
+        - [https://oootraveling.com/](https://oootraveling.com/)
+    - Samples From Mars (backend)
+    - Flourish Cash (with Elephant)
+        - [https://www.flourish.com/learn](https://www.flourish.com/learn)
+        - [https://elephant.is/](https://elephant.is/)
+    - Forerunner Ventures (with 4GM)
+    - For Good Measure
+        - Video
+    - Creative Footprint (with 4GM)
+    - Radical Machines (with 4GM)
+        - [https://www.radicalmachines.org/](https://www.radicalmachines.org/)
+    - Better Angels (with 4GM)
+        - [https://better-angels.forgoodmeasure.us/](https://better-angels.forgoodmeasure.us/)
+    - The Sex Reporter (with 4GM)
+        - [https://thesexreporter.com/](https://thesexreporter.com/)
+    - Hope Floats (with Pioneerworks)
+        - [https://www.engadget.com/2017-08-16-hope-floats-political-call-bot-art.html](https://www.engadget.com/2017-08-16-hope-floats-political-call-bot-art.html)
+    - Aiva Health
+        - PDF
+- Octave - Product Designer
+- Uber - Engineer
+- Honey - Engineer
+
+## Studio
+
+- Investment
+- Create Digital Products
+    - Neighby
+
+## Projects
+
+- *Fey Arts (2019)*
+    - **Type: Custom Site**
+    - **Role: Design, Development**
+    - **Technologies: React, Sanity, Next.js**
+    - **Link: [https://www.fey-arts.com/](https://www.fey-arts.com/)**
+- *Blueland (2019)*
+    - **Type: Shopify Theme**
+    - **Role: Animation, Development *with [The Couch](https://thecouch.nyc/)***
+    - **Technologies: Shopify, Slater, CSS**
+    - **Link: [https://www.blueland.com/](https://www.blueland.com/)**
+- *Neighby (2018)*
+    - **Type:** Custom Web Application
+    - **Role:** UI/UX Design, Branding, Development, Hosting
+    - **Technologies: React, AWS**
+    - **Link: [https//www.neighby.com](http://www.neighby.com/)**
+- **Fey Arts (2018)**
+    - **Type: Wordpress Theme**
+    - **Role: Design, Development**
+    - **Technologies: PHP, HTML, CSS**
+    - **Link: [https://fey-arts.com/](https://fey-arts.com/)**
+- OOO (2018)
+    - **Type: Custom Shopify Integration**
+    - **Role: Development**
+    - **Technologies: React, GraphQL, CSS**
+    - **Link: [https://www.oootraveling.com](https://www.oootraveling.com/)**
+- Forerunner (2018)
+    - **Type:** Wordpress Theme
+    - **Role: Development**
+    - **Technologies: PHP, HTML, CSS**
+    - **Link: [http://forerunnerventures.com](http://forerunnerventures.com/)**
+- Coltonbrown.co (2018)
+    - **Type:** Custom static site
+    - **Role:** Design and Development
+    - **Technologies: AWS, HTML, CSS**
+    - **Link: [http://www.coltonbrown.co](http://www.coltonbrown.co/)**
+- Forgoodmeasure.us (2018)
+    - **Type: Custom static site**
+    - **Role: Design and Development**
+    - **Technologies: React, CSS, AWS**
+    - **Link: [http://www.forgoodmeasure.us](http://www.forgoodmeasure.us/)**
+- Creative Footprint (2017)
+    - **Type: Custom static site**
+    - **Role: Development**
+    - **Technologies: React, CSS, AWS**
+    - **Link: [http://creative-footprint.org](http://creative-footprint.org/)**
+- Radical Machines (2017)
+    - **Type: Custom static site**
+    - **Role: Development**
+    - **Technologies: React, CSS, AWS**
+    - **Link: [https://www.radicalmachines.org](https://www.radicalmachines.org/)**
+- Better Angels (2017)
+    - **Type: Custom static site**
+    - **Role: UX Design, Development**
+    - **Technologies: React, CSS, AWS**
+    - **Link: [https://www.betterangels.org](https://better-angels.forgoodmeasure.us/)**
+- The Sex Reporter (2017)
+    - **Type:** Wordpress Theme
+    - **Role: Development**
+    - **Technologies: PHP, HTML, CSS**
+    - **Link: [https://thesexreporter.com](https://thesexreporter.com/)**
+- Hope Floats (2017)
+    - **Type: Physical / Installation**
+    - **Role: Development, Infrastructure**
+    - **Technologies: AWS**
+- AIVA (2017)
+    - **Type: Custom Web Application**
+    - **Role: UI/UX Design, Development**
+    - **Technologies: GraphQL, React**
+
+## [<< Back to coltonbrown.co](http://coltonbrown.co/)
