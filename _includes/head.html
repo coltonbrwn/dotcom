@@ -8,4 +8,27 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <style type="text/css">
+    @font-face {
+        font-family: Helvetica;
+        src: url({{site.baseurl}}/assets/fonts/Helvetica-Bold.ttf) format("truetype");
+        font-weight: 700;
+    }
+   @font-face {
+        font-family: Helvetica;
+        src: url({{site.baseurl}}/assets/fonts/helvetica-light.ttf) format("truetype");
+    }
+    * {
+      font-family: Helvetica, Verdana, Tahoma;
+      font-weight: 200;
+    }
+    h1, h2, h3 { 
+        font-family: Helvetica, Verdana, Tahoma;
+        color: green;
+    }
+    h1 {
+      font-weight: 700;
+    }
+    </style>
+    
 </head>

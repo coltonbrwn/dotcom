@@ -1,0 +1,12 @@
+.item_link {
+    position: relative;
+    padding-left: 30px;
+    svg {
+        position: absolute;
+        top: 3px;
+        left: 0;
+    }
+}
+.item_description {
+    font-weight: 200;
+}

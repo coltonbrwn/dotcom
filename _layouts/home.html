@@ -10,13 +10,13 @@ layout: default
   {{ content }}
 
 {%- for item in site.data.collections -%}
-<h2>{{item.title}}</h2>
-<ul>
+<h2 class="post-list-heading">{{item.title}}</h2>
+<ul class="article-list">
   {%- for p in site[item.name] -%}
   <li style="margin-bottom: 20px">
-      <div style="display:flex">{%- include icon-notion.svg -%}<a href="{{p.url | relative_url}}"><h3 style="margin-bottom: 5px;">{{p.title}}</h3></a></div>
+      <div class="item_link">{%- include icon-notion.svg -%}<a href="{{p.url | relative_url}}"><h3 style="margin-bottom: 5px;">{{p.title}}</h3></a></div>
       {%- if p.description -%}
-        <div>{{p.description}}</div>
+        <div class="item_description">{{p.description}}</div>
       {%- endif -%}
       {%- if p.role -%}
         <div>Role: {{p.role}}</div>
@@ -25,7 +25,6 @@ layout: default
   {%- endfor -%}
 </ul>
 {%- endfor -%}
-
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
