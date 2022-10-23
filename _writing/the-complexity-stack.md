@@ -23,7 +23,7 @@ link: https://docs.google.com/presentation/d/1VRSQp-fZrXdUYYz3kwn92WWiVtpLu5zdjF
 me
 
 ### 🏃‍♂️  growing up & school
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-01.png)
+![growing up & school](images/the-complexity-stack-01.webp)
 1. Tried architecture
 1. Started studying physics undergrad
 1. Pivoted to computer science because I could make stuff
@@ -39,7 +39,7 @@ Design isn't considered a traditional educational path, and digital product desi
   
 
 ### 🍯  Honey – c. 2013
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-02.png)
+![growing up & school](images/the-complexity-stack-02.webp)
 
 1. Joined as a newb JS developer
 1. We didn’t really know how to approach design
@@ -54,7 +54,7 @@ Some founders view design as a resource and not a process. Approaching our start
 I joined Honey fresh out of college as a javascript developer. Design was something we didn't know how to approach. We were definitely trying to make our product look better but had little process around it. I have an awkward memory of going back and forth with my boss about how to position a button I was building. 'Product' was something my boss was passionate about yet couldn't describe to me. Despite our lack of knowledge the company's early success actually hinged on the design of the product. The founders had created and launched a prototype and were seeing organic interest in what they'd built, and were in the process of iterating.
 
 ### 🐼  freelancing – c. 2015
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-03.png)
+![growing up & school](images/the-complexity-stack-03.webp)
 
 - Got a gig building a frontend for a translation startup
 - Worked on design mostly to make my work easier
@@ -68,7 +68,7 @@ Discrepancies can leave big holes in a project that engineers often feel pressur
 When I left Honey I picked up a freelance gig building a frontend for a translation startup. I was working on a fixed budget, and I noticed that the designer's screens were going to be time-consuming for me to build. As a result I took on a portion of the design work so that the UI would match the data model that already existed on the backend. It saved me and time and the company money. But I wasn't really doing design, I was just creating a visual analog of the codebase.
 
 ### 🚕  Uber – c. 2016-17
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-04.png)
+![growing up & school](images/the-complexity-stack-04.webp)
 
 1. Joined Uber at an intense time
 1. Eng org was competitive and opaque
@@ -87,7 +87,7 @@ In that environment it was really competitive to get autonomy as an engineer. I 
 
 
 ### 🎨  For Good Measure – c. 2018
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-05.png)
+![growing up & school](images/the-complexity-stack-05.webp)
 
 1. Co-ran a web design firm
 1. Serviced a range of clients, lots of branding and design projects
@@ -102,7 +102,7 @@ Traditional designers can sometimes overlook basic aspects of digital design. Tu
 Around the time I was planning my next move I met some folks who starting an independent graphic design studio called For Good Measure. We decided to join forces and run a web design shop together - they specialized in branding and graphics, and I handled the code. During this time I got immersed in a new set of ideas, learned graphic design fundamentals and sharpened my front-end skills. But the team didn't seem to understand how to approach digital products. I'll never forget a client meeting in which my wireframes resonated with the client in a way that their branding didn't. This experience encouraged me to pursue my own projects as a designer, even though I felt like an imposter.
 
 ### 🏢  Volley – c. 2019
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-06.png)
+![growing up & school](images/the-complexity-stack-06.webp)
 1. Designed and built 
 1. Range of clients, lots of branding and design projects
 1. Learned about graphic design
@@ -142,15 +142,15 @@ My first project as an independent designer was building a portfolio site for a 
 ## How can we use fundamentals of design to educate our peers to think more like us?
 
 ### Gestalt Theory
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-07.png)
+![growing up & school](images/the-complexity-stack-07.webp)
 
 
 ### Typography
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-08.png)
+![growing up & school](images/the-complexity-stack-08.webp)
 
 
 ### Color Theory
-![growing up & school]({{site.baseurl}}/assets/images/the-complexity-stack-09.png)
+![growing up & school](images/the-complexity-stack-09.webp)
 
 
 ### The Grid

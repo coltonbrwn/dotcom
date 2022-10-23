@@ -3,14 +3,14 @@ layout: post
 title: Writey Drawey
 link: https://medium.com/p/fa485eed546e
 ---
-![You never know what you’re gonna get]({{site.baseurl}}/assets/images/writey-drawey-01.webp)
+![You never know what you’re gonna get](images/writey-drawey-01.webp)
 
 ## The game that almost died during COVID and how I made it an app
 A reflection on 1 year of writeydrawey
 Back before the pandemic, my friends and I used to love playing a nameless pen-and-paper game that was like a cross between telephone and pictionary. A common activity in parks or group dinners, it reliably made us laugh and could easily be taught to newcomers.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/writey-drawey-02.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
+  <img src="images/writey-drawey-02.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
   <figcaption>Playing “the game” IRL</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ The game works like this: everybody gets a small stack of paper and writes down 
 The best part is at the end when everybody shares and we flip through the pages, watching a chain of misunderstandings and mistakes unfold. It’s rare when the cards at the end of the game resemble the ones at the beginning; the creative subconscious tends to take over and forms something completely new.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/writey-drawey-03.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
+  <img src="images/writey-drawey-03.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
   <figcaption>You never know what you’re gonna get</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ I thought building a version of the game might be a good creative outlet. Unlike
 After back-to-back weekends spent coding, I finished a basic version of the game and sent the link to my friends on our next zoom call. I played a round with my coworkers during our Friday standup. Somebody called it Writey Drawey and the name stuck. here’s what it looked like:
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/writey-drawey-04.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
+  <img src="images/writey-drawey-04.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
   <figcaption>You never know what you’re gonna get</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Is there something intimidating about the internet? Are we conditioned to expect
 Yet those same people often end up making some of the most interesting drawings filled with originality and character. It’s an example of how imperfection and vulnerability can be the most interesting parts of creative endeavors. Most children love drawing yet at some point grow up to fear it, spending their adult lives avoiding pen and paper. Yet when they do draw, the work is usually awesome and hilarious in its own right.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/writey-drawey-05.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
+  <img src="images/writey-drawey-05.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
   <figcaption>Some favorites among the thousands of images made on Writey Drawey</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Yet those same people often end up making some of the most interesting drawings 
 Writey Drawey might not have existed without the digital shift we’ve made over the last year. I probably would have no reason to build such a thing given the abundance of pens, paper, and parks in most cities. And yet it hasn’t been easy adapting to digital space. Since most of our experiences online are built for efficiency, clarity, and predictability, there’s limited bandwidth left for human connection. It’s fascinating to me that I found a lot more connection through a game which deliberately obscures and distorts the meaning of what you put into it. What does that say about the nature of digital community? Is it possible that we’ve been trying too hard all this time?
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/writey-drawey-06.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
+  <img src="images/writey-drawey-06.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
 </figure>
 
 ### Writey Drawey 2.0
@@ -70,7 +70,7 @@ Visit the site: <https://writeydrawey.site>
 View the gallery: <https://writeydrawey.site/gallery>
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/writey-drawey-07.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
+  <img src="images/writey-drawey-07.webp" alt="presentation" style="width:100%" role="presentation" loading="lazy">
 </figure>
 
 @coltontbrown
