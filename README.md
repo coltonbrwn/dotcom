@@ -77,4 +77,6 @@ XYZ was a platform designed to facilitate the coordination and production of mus
 
 and the corresponding pages of the collection will be automatically generated and added to the menu.
 
+**Important!**
 
+change `baseurl: "/colt83"` in `_config.yml` to your real baseurl or delete it if your site will be in root 
