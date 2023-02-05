@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "For Good Measure (Partner & Creative Technologist) [2017-2019]"
+title: "partner & creative technologist at 4GM"
+date_str: 2017&#8212;19
+description: created websites and branding packages for a range of clients alongside two graphic designers; aided in business oprerations and client acquisition
+sort_order: 2
 ---
 **Select Projects**
 

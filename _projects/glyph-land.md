@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Glyph.Land      (April 8 → 10)"
-description: A meditation on globalization, and development, computer vision.
+title: "glyph.land"
+description: a meditation on globalization, and development, computer vision.
 role: Artist / Developer
 image: /assets/images/glyph_land_1.webp
+date_str: 2021
+sort_order: 1
 ---
 
 ![illustration]({{site.baseurl}}/assets/images/glyph_land.webp)

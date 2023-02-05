@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "XYZ.church  (February 11th)"
-description: A collaboratively-funded, tokenized arts community
+title: "XYZ.church"
+description: a collaboratively-funded, tokenized arts community
 role: Founder / Designer / Developer
 image: /assets/images/XYZ-mock.webp
+date_str: 2022
+sort_order: 0
 ---
 ### Concept
 

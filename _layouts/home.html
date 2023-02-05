@@ -2,48 +2,30 @@
 layout: default
 ---
 
+{%- include header.html -%}
+
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
   {{ content }}
-
-{%- for item in site.data.collections -%}
-<h2 class="post-list-heading">{{item.title}}</h2>
-<ul class="article-list">
-  {%- for p in site[item.name] -%}
-  <li style="margin-bottom: 20px">
-      <div class="item_link">{%- include icon-notion.svg -%}<a href="{{p.url | relative_url}}"><h3 style="margin-bottom: 5px;">{{p.title}}</h3></a></div>
-      {%- if p.description -%}
-        <div class="item_description">{{p.description}}</div>
-      {%- endif -%}
-      {%- if p.role -%}
-        <div>Role: {{p.role}}</div>
-      {%- endif -%}
-  </li>
-  {%- endfor -%}
-</ul>
-{%- endfor -%}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li style="margin-bottom: 20px">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            <h3 style="margin-bottom: 0;">{{ post.title | escape }}</h3>
-          </a>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+  {%- for item in site.data.collections -%}
+  <h2 class="post-list-heading embolden">{{item.title}}</h2>
+  <ul class="article-list">
+    {% assign sorted = site[item.name] | sort: 'sort_order' %}
+    {%- for p in sorted -%}
+    <li>
+        <div class="item_link embolden"><a href="{{p.url | relative_url}}"><h3>{{p.title}}</h3></a></div>
+        {%- if p.description -%}
+          <div class="item_description">{{p.description}}</div>
         {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+        <div class="item_date embolden">
+          {{ p.date_str }}
+        </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endfor -%}
 </div>
+
+<iframe
+  id="drawingCanvas"
+  src="/blog/assets/canvas/index.html"
+/>

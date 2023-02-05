@@ -26,6 +26,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-size: $base-font-size;
 }
 
 
@@ -37,7 +38,8 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: 0;
+  line-height: 1.2rem;
 }
 
 
@@ -80,7 +82,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  // margin-left: $spacing-unit;
 }
 
 li {
@@ -96,7 +98,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  // font-weight: $base-font-weight;
+  // margin-bottom: 0.2em;
+  font-size: 1em;
 }
 
 
@@ -105,11 +109,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($text-color, 15%);
   }
 
   &:hover {
@@ -180,9 +184,8 @@ pre {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: $spacing-unit * 1;
+  padding-left: $spacing-unit * 1;
   @extend %clearfix;
 
   @include media-query($on-laptop) {

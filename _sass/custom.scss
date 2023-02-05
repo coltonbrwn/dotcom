@@ -1,12 +1,79 @@
-.item_link {
-    position: relative;
-    padding-left: 30px;
-    svg {
-        position: absolute;
-        top: 3px;
-        left: 0;
+@font-face {
+    font-family: 'Helvetica';
+    src: url("fonts/Helvetica.ttf");
+    font-weight: bold;
+    text-shadow: 1px 0px 0px black;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url("fonts/Helvetica.ttf");
+}
+
+.article-list {
+    list-style: none;
+    li {
+      position: relative;
+      margin-bottom: calc(#{$spacing-unit} * 0.5);  
+      padding-left: 4 * $spacing-unit;  
+      &:last-of-type {
+        margin-bottom: $spacing-unit;
+      }
     }
 }
+
+.embolden {
+    text-shadow: 1px 0 0 $text-color-bold;
+    color: $text-color-bold;
+}
+.item_link {
+    position: relative;
+    font-weight: bold;
+}
 .item_description {
-    font-weight: 200;
+    // font-weight: 200;
+    text-align: justify;
+}
+.item_date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+h2 {
+  letter-spacing: -0.0rem;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#drawingCanvas {
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+header, .home {
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+  a {
+    pointer-events: all;
+  }
 }
