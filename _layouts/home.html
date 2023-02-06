@@ -5,7 +5,6 @@ layout: default
 {%- include header.html -%}
 
 <div class="home">
-  {{ content }}
   {%- for item in site.data.collections -%}
   <h2 class="post-list-heading embolden">{{item.title}}</h2>
   <ul class="article-list">
