@@ -3,8 +3,8 @@ var path;
 
 function transformPoint(point) {
     return new Point({
-        x: (point.x) / 5 + 1000,
-        y: (point.y) / 5 + 500
+        x: (point.x) / 2 + 1000,
+        y: (point.y) / 2 + 500
     })
 }
 
