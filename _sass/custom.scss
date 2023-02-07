@@ -8,7 +8,6 @@
     font-family: 'Helvetica';
     src: url("fonts/Helvetica.ttf");
 }
-
 .article-list {
     list-style: none;
     li {
@@ -20,17 +19,18 @@
       }
     }
 }
-
 .embolden {
     text-shadow: 1px 0 0 $text-color-bold;
     color: $text-color-bold;
+}
+.caps {
+  text-transform: uppercase;
 }
 .item_link {
     position: relative;
     font-weight: bold;
 }
 .item_description {
-    // font-weight: 200;
     text-align: justify;
 }
 .item_date {
@@ -69,11 +69,18 @@ h2 {
   height: 100%;
   border: none;
 }
-header, .home, footer {
+header, .home, .resume, footer {
   pointer-events: none;
   position: relative;
   z-index: 1;
   a {
     pointer-events: all;
+  }
+}
+
+.home {
+  margin-top: 3 * $spacing-unit;
+  li.home__title-block {
+    margin-bottom: 2 * $spacing-unit;
   }
 }

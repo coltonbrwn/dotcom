@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{%- include header.html -%}
+
+<div class="resume">
+  {%- for item in site.data.resume -%}
+  <h2 class="post-list-heading embolden">{{item.title}}</h2>
+  <ul class="article-list">
+    {% assign sorted = site[item.name] | sort: 'sort_order' %}
+    {%- for p in sorted -%}
+    <li>
+        <div class="item_link embolden"><a href="{{p.url | relative_url}}"><h3>{{p.title}}</h3></a></div>
+        {%- if p.description -%}
+          <div class="item_description">{{p.description}}</div>
+        {%- endif -%}
+        <div class="item_date embolden">
+          {{ p.date_str }}
+        </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endfor -%}
+</div>
+
+{%- include footer.html -%}

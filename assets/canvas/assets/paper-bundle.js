@@ -8,7 +8,6 @@ function transformPoint(point) {
     })
 }
 
-
 function onMouseDown(event) {
 	// If we produced a path before, deselect it:
 	if (path) {
