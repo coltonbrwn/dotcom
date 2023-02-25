@@ -2,7 +2,7 @@ title: Colton Brown
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Colton Brown makes creative work across technology, music and design.
-baseurl: "/dotcom" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://coltonbrwn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
