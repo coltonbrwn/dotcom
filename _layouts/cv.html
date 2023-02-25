@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<header class="site-header" role="banner">
+    <div class="flex-wrapper">
+      <h2><a href="/">Colton Brown</a></h2>
+      <h2>hi (at) coltonbrown.com</h2>
+    </div>
+</header>
+  
+
+CV
+
+<div class="">
+  
+  <ul class="article-list">
+    {%- for item in site.data.cv -%}
+    <li>
+        <div class="item_link">
+            <a href="{{item.url | relative_url}}"><h3>{{item.title}}</h3></a>
+        </div>
+        <div class="item_date embolden">
+          {{ item.date_str }}
+        </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+</div>
+
+{%- include footer.html -%}
