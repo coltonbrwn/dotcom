@@ -9,10 +9,12 @@
 - date_str: '03.2022'
   group_id: 1
   title: pearly remix
-- date_str: '03.2022'
+  url: '#'
+- date_str: '02.2022'
   group_id: 1
   title: XYZ.Church
-- date_str: '03.2022'
+  url: '#'
+- date_str: '02.2022'
   group_id: 1
   title: Self Reflection EP
   url: '/projects/xyz.html'
@@ -22,9 +24,103 @@
   url: '#'
 - date_str: '08.2021'
   group_id: 1
-  title: 1st place @ FWB hackathon
+  title: 1st place team @ FWB hackathon
+  url: '#'
+- date_str: '06.2021'
+  group_id: 1
+  title: fellow @ gitcoin Kernel (KBIII)
+  url: '#'
+- date_str: '06.2021'
+  group_id: 1
+  title: glyph.land @ Your Art Aquí
   url: '#'
 - date_str: '05.2021'
   group_id: 1
   title: guest speaker @ On Deck Fellowship 
   url: '#'
+- date_str: '04.2021'
+  group_id: 1
+  title: Writey Drawey
+  url: '#'
+- date_str: '04.2021'
+  group_id: 1
+  title: Finalist @ NFT Hack
+  url: '#'
+- date_str: '02.2021'
+  group_id: 1
+  title: The Game That Almost Died During Covid
+  url: '#'
+- date_str: '07.2020'
+  group_id: 1
+  title: 9 Million Reasons (web build)
+  url: '#'
+- date_str: '12.2020'
+  group_id: 1
+  title: coltonbrown.com (design & build)
+  url: '#'
+- date_str: '05.2020 - 09.2019'
+  group_id: 1
+  title: Product Design @ Octave Health
+  url: '#'
+- date_str: '11.2019'
+  group_id: 1
+  title: Volley Studio
+  url: '#'
+- date_str: '09.2019'
+  group_id: 1
+  title: Fey Arts (design & dev)
+  url: '#'
+- date_str: '06.2019'
+  group_id: 1
+  title: Blueland w/ The Couch (dev)
+  url: '#'
+- date_str: '2018'
+  group_id: 1
+  title: Neighby (design & dev)
+  url: '#'
+- date_str: '2018'
+  group_id: 1
+  title: Flourish Cash w/ Elephant (dev)
+  url: '#'
+- date_str: '2018'
+  group_id: 1
+  title: OOO w/ For Good Measure (dev)
+  url: '#'
+- date_str: '2018'
+  group_id: 1
+  title: Creative Footprint w/ For Good Measure (dev)
+  url: '#'
+- date_str: '2017'
+  group_id: 1
+  title: Better Angels w/ For Good Measure (dev)
+  url: '#'
+- date_str: '2017'
+  group_id: 1
+  title: The Sex Reporter w/ For Good Measure (dev)
+  url: '#'
+- date_str: '2017'
+  group_id: 1
+  title: Hope Floats w/ Pioneer Works
+  url: '#'
+- date_str: '2017'
+  group_id: 1
+  title: Radical Machines w/ For Good Measure (dev)
+  url: '#'
+- date_str: '2017-2015'
+  group_id: 1
+  title: Developer @ Uber
+  url: '#'
+- date_str: '2013-2015'
+  group_id: 1
+  title: Developer @ Honey
+  url: '#'
+- date_str: '2013'
+  group_id: 1
+  title: B.S. Physics, Computer Science @ Duke
+  url: '#'
+- date_str: '2009'
+  group_id: 1
+  title: Architecture Development Program
+  url: '#'
+
+
