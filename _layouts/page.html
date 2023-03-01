@@ -1,17 +1,23 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{%- include header.html -%}
+  {%- include head.html -%}
 
-<article class="post">
+  <body>
+    <main aria-label="Content">
+      <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+      
+        <div class="post-content">
+          {{ content }}
+        </div>
+      
+      </article>      
+    </main>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  </body>
 
-</article>
+</html>

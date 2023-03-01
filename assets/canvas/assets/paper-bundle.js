@@ -1,6 +1,5 @@
 var path;
 
-
 function transformPoint(point) {
     return new Point({
         x: (point.x) / 2 + 1000,
@@ -8,25 +7,30 @@ function transformPoint(point) {
     })
 }
 
-function onMouseDown(event) {
-	// If we produced a path before, deselect it:
-	if (path) {
-		path.selected = false;
+function onFrame() {
+	if (!path) {
+		path = loadPath()
 	}
+}
 
-	// Create a new path and set its stroke color to black:
-	path = new Path({
-		segments: [transformPoint(event.point)],
-		strokeColor: 'black',
-		// Select the path, so we can see its segment points:
-		// fullySelected: true
-	});
+function savePath(path) {
+	window.sessionStorage.setItem("__path", path.exportJSON())
+}
+
+function loadPath() {
+	var json = window.sessionStorage.getItem("__path")
+	if (!json) {
+		return null;
+	}
+	var path = new Path()
+	path.importJSON(json)
+	return path
 }
 
 // While the user drags the mouse, points are added to the path
 // at the position of the mouse:
 function onMouseMove(event) {
-    if (!path) {
+	if (!path) {
         path = new Path({
             segments: [transformPoint(event.point)],
             strokeColor: 'black',
@@ -35,19 +39,5 @@ function onMouseMove(event) {
         });
     }
 	path.add(transformPoint(event.point));
-}
-
-// When the mouse is released, we simplify the path:
-function onMouseUp(event) {
-	var segmentCount = path.segments.length;
-
-	// When the mouse is released, simplify it:
-	path.simplify(2);
-
-	// Select the path, so we can see its segments:
-	path.fullySelected = false;
-
-	var newSegmentCount = path.segments.length;
-	var difference = segmentCount - newSegmentCount;
-	var percentage = 100 - Math.round(newSegmentCount / segmentCount * 100);
+	savePath(path)
 }
