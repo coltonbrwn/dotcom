@@ -2,12 +2,12 @@
 layout: default
 ---
 
-{%- include header.html -%}
+{%- include header-wide.html -%}
 
 <div class="resume">
   {%- for item in site.data.resume -%}
   <h2 class="post-list-heading embolden">{{item.title}}</h2>
-  <ul class="article-list">
+  <ul class="article-list content-width">
     {% assign sorted = site[item.name] | sort: 'sort_order' %}
     {%- for p in sorted -%}
     <li>
@@ -23,5 +23,3 @@ layout: default
   </ul>
   {%- endfor -%}
 </div>
-
-{%- include footer.html -%}

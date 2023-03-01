@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<header class="site-header" role="banner">
-    <div class="flex-wrapper">
-      <h2><a href="/">Colton Brown</a></h2>
-      <h2>hi (at) coltonbrown.com</h2>
-    </div>
-</header>
-  
+{%- include header-wide.html -%}
 
-CV
+<div class="cv__picker">
+  <a href="#">design</a>
+  <a href="#">music</a>
+  <a href="#">code</a>
+  <a href="#">education</a>
+  <a href="#">writing</a>
+</div>
 
-<div class="">
+<div class="cv">
   
+  {%- assign groups = site.data.cv | group_by:"group_id" -%}
+  {%- for group in groups -%}
   <ul class="article-list">
-    {%- for item in site.data.cv -%}
+    {%- for item in group.items -%}
     <li>
         <div class="item_link">
             <a href="{{item.url | relative_url}}"><h3>{{item.title}}</h3></a>
@@ -26,7 +28,7 @@ CV
     </li>
     {%- endfor -%}
   </ul>
+  {%- endfor -%}
 
 </div>
 
-{%- include footer.html -%}
