@@ -4,15 +4,15 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<div class="cv__picker">
-  <a href="#">design</a>
-  <a href="#">music</a>
-  <a href="#">code</a>
-  <a href="#">education</a>
-  <a href="#">writing</a>
+<div class="cv__picker fade-in">
+  <a class="bubble" href="#">design</a>
+  <a class="bubble" href="#">music</a>
+  <a class="bubble" href="#">code</a>
+  <a class="bubble" href="#">education</a>
+  <a class="bubble" href="#">writing</a>
 </div>
 
-<div class="cv">
+<div class="cv fade-in">
   
   {%- assign groups = site.data.cv | group_by:"group_id" -%}
   {%- for group in groups -%}
@@ -20,7 +20,9 @@ layout: default
     {%- for item in group.items -%}
     <li>
         <div class="item_link">
-            <a href="{{item.url | relative_url}}"><h3>{{item.title}}</h3></a>
+            <a href="{{item.url | relative_url}}">
+              <h3>{{item.title}}</h3>
+            </a>
         </div>
         <div class="item_date embolden">
           {{ item.date_str }}
@@ -29,6 +31,5 @@ layout: default
     {%- endfor -%}
   </ul>
   {%- endfor -%}
-
 </div>
 

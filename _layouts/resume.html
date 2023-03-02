@@ -4,9 +4,11 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<div class="resume">
+<div class="resume fade-in">
   {%- for item in site.data.resume -%}
-  <h2 class="post-list-heading embolden">{{item.title}}</h2>
+  <h2 class="post-list-heading embolden">
+    {{item.title}}
+  </h2>
   <ul class="article-list content-width">
     {% assign sorted = site[item.name] | sort: 'sort_order' %}
     {%- for p in sorted -%}

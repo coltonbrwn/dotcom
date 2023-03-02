@@ -8,14 +8,24 @@
     font-family: 'Helvetica';
     src: url("fonts/Helvetica.ttf");
 }
+@font-face {
+  font-family: 'Forme';
+  src: url("fonts/Forme/forme-grotesque-regular-trial.otf");
+}
+@font-face {
+  font-family: 'Forme';
+  font-weight: bold;
+  src: url("fonts/Forme/forme-grotesque-semibold-trial.otf");
+}
+
 .article-list {
     list-style: none;
     li {
       position: relative;
-      margin-bottom: calc(#{$spacing-unit} * 0.5);  
+      margin-bottom: 1/3 * $spacing-unit;
       padding-left: 4 * $spacing-unit;  
       &:last-of-type {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 0.25 * $spacing-unit;
       }
     }
 }
@@ -32,13 +42,17 @@ main {
 }
 .cv .article-list li {
   margin-bottom: 0;
+  padding-left: 4 * $spacing-unit;
+  h3 {
+    font-weight: normal;
+  }
   &:last-of-type {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 0.5 * $spacing-unit;
   } 
 }
 .embolden {
-    text-shadow: 1px 0 0 $text-color-bold;
-    color: $text-color-bold;
+    // text-shadow: 1px 0 0 $text-color-bold;
+    // color: $text-color-bold;
 }
 .caps {
   text-transform: uppercase;
@@ -48,7 +62,7 @@ main {
     font-weight: bold;
 }
 .item_description {
-    text-align: justify;
+    // text-align: justify;
 }
 .item_date {
     position: absolute;
@@ -60,7 +74,7 @@ main {
 h2 {
   letter-spacing: -0.0rem;
   text-transform: uppercase;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 .post-list {
@@ -70,6 +84,9 @@ h2 {
   > li {
     margin-bottom: $spacing-unit;
   }
+}
+.post-list-heading {
+  margin: $spacing-unit 0;
 }
 
 .flex-wrapper {
@@ -108,11 +125,17 @@ header, .home, .resume, footer {
 
 .cv__picker {
   margin: $spacing-unit 0 $spacing-unit*2 0;
-  a {
+  .bubble {
     border: 1px solid black;
     padding: $spacing-unit / 4;
     white-space: nowrap;
     border-radius: $spacing-unit / 2;
     margin-right: $spacing-unit / 4;
+    box-shadow: 5px 4px 0 rgba(98, 98, 98, 0.38);
   }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 800ms;
 }

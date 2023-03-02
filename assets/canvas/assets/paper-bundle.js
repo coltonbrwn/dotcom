@@ -38,6 +38,12 @@ function onMouseMove(event) {
             // fullySelected: true
         });
     }
+
+	console.log(path.segments.length)
+
+	if (path.segments.length > 400) {
+		path.removeSegment(0)
+	}
 	path.add(transformPoint(event.point));
 	savePath(path)
 }

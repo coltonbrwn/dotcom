@@ -7,49 +7,63 @@ image: /assets/images/XYZ-mock.webp
 date_str: 2022
 sort_order: 0
 ---
-### Concept
 
-XYZ was a platform designed to facilitate the coordination and production of music. It utilized web3 technologies in order to enable community ownership, transparency, and incentive. It was announced on October 28th 2021, launched on February 11th, and wound-down on April 1, 2021.
+<ul class="article-list">
+    <li class="home__title-block">
+        <div class="item_description">
+            <p>
+                What if we leveraged web3 tech to support independent music? “XYZ” is a project designed to facilitate ownership, transparency, and shared incentive for music communities. It takes on many of the roles of a music label where community members are co-owners in the cultural output they create.
+            </p>
+        </div>
+        <div class="item_date">
+            <h3>concept</h3>
+        </div>
+    </li>
 
-XYZ raised an initial crowdfund via Mirror post which can be accessed here
+    <li>
+        <div class="item_description">
+            <p>
+                To investigate this use case, I built a crypto-native music distribution platform. I raised funds through a mirror crowdfund, started a gated discord server, distributed tokens to community members and shipped a web platform to sell music NFTs with a custom contract to distribute a configurable portion of NFT proceeds to the DAO.
 
-- [https://mirror.xyz/c0lt.eth/crowdfunds/0x3D2333e0DDc21C05aceCE6432C7E602e57c0c653](https://mirror.xyz/c0lt.eth/crowdfunds/0x3D2333e0DDc21C05aceCE6432C7E602e57c0c653)
+                I developed a brand identity and web design that positiond itself within the design langauge of web3.
+            </p>
+        </div>
+        <div class="item_date">
+            <h3>design</h3>
+        </div>
+    </li>
+</ul>
 
-The treasury reached an alltime high of $20k, from 20 active supporters. The money was used to finance artwork and production of the first release - *Self Reflection EP.*
+XYZ is tokenized via $WAV. That means that holders of $WAV can use it to vote on initiatives or exchange it for ETH. The overall demand of $WAV tokens informs the valuation of the organization, and the supply is set internally.
 
-XYZ ultimately wound down due to a misalignment of vision and capability. I simply lacked the experience, skills and time to run a successful community while iterating on product. XYZ’s lifespan was short 
+The primary purpose of XYZ is to release new music. Initially the DAO invests funds from its treasury to cover production costs for the release, including recording, engineering, artwork, and artist advances. As a reward for participating in each release, $WAV tokens are minted and issued to DAO members, giving them added voting power and increased ownership. The music is finally sold as an NFT, with proceeds split between the artists and the DAO treasury. 
 
-### Technologies
 
-- DAOs
-- Smart Contracts
-- Ethereum
-- NFTs
-- Frontend Javascript
+<ul class="article-list">
+    <li class="home__title-block">
+        <div class="item_description">
+            <p>
+                The project raised public funding on October 28th 2021, launched on February 11th with its first release, and eventually wound-down on April 1, 2021 after I decided the project was not sustainable. 
+            </p>
+        </div>
+        <div class="item_date">
+            <h3>timeline</h3>
+        </div>
+    </li>
 
-### Brand
+    <li>
+        <div class="item_description">
+            <p>
+                The rise of the internet brought with it the fall of traditional record sales, with major labels scrambling to recooperate profits lost from piracy throughout the 90s and 00s. In the decades since, streaming has slowly grown into an economicallty viable alternative, with industry profits recently returning to their pre-internet numbers.
 
-The name of the organization comes from the common domain name .xyz. Given the experimental and preliminary state of the organization, the brand reflects the aesthetic of architectural blueprints. The meaning of XYZ was extended to include the coordinate plane.
+                However, independent labels and artists — left out of the lucrative co-ownership deals enjoyed between major labels and large streaming companies —  have shared a different relationship with the rise of the internet and streaming. During the 00s and 10s, internet forums and blogs gave rise to a splintering of new subgenres and communities. In the creative void of mainstream 2000s radio, independent college radio emerged, bringing a new sound to rock music. Advances in recording technology meant more DIY music. Platforms like Soundcloud and Bandcamp broke new independent artists and supercharged the evolution of new sounds in electronic, ambient, hiphop, and experimental — all without major label promotion or distribution.
 
-### Learnings
+                While the internet brought challenges to incumbent music giants, it opened new doors for independents. Today, the internet has grown into a mass-market ecosystem based on economies of scale that makes less economic sense for independent and experimental music. XYZ is an attempt at a new financial model that could be funded with a mix of philanthropic support and fan engagement.
 
-In this project I learned a lot about the demands of building and running a community, learned how to write solidity contracts and worked hands-on with the blockchain. On a personal level I realized that the problem of making compelling art is more pressing, educational, and nourishing than distributing it. 
-
----
-
-Assumptions
-
-- Art as a produced entity
-    - does that imply art as commodity?
-    - (as opposed to art as immaterial expression)
-        - Although to be fair the impetus to make this DAO
-
-⭐️ crypto is about the materiality / ownership / commodification of data.
-
-Cryptography fundamentally ties a piece of data to an individual privileged entity.
-
-Questions 
-
-- What is the relationship between Markets, Music and Crypto?
-- What are the differences between digital art markets and digital music markets?
-- List
+            </p>
+        </div>
+        <div class="item_date">
+            <h3>backstory</h3>
+        </div>
+    </li>
+</ul>
