@@ -127,7 +127,7 @@ header, .home, .resume, footer {
   margin: $spacing-unit 0 $spacing-unit*2 0;
   .bubble {
     border: 1px solid black;
-    padding: $spacing-unit / 4;
+    padding: $spacing-unit / 6 $spacing-unit / 2;
     white-space: nowrap;
     border-radius: $spacing-unit / 2;
     margin-right: $spacing-unit / 4;
