@@ -17,6 +17,11 @@
   font-weight: bold;
   src: url("fonts/Forme/forme-grotesque-semibold-trial.otf");
 }
+@font-face {
+  font-family: 'Forme';
+  font-weight: 900;
+  src: url("fonts/Forme/forme-grotesque-black-trial.otf");
+}
 
 .article-list {
     list-style: none;
@@ -51,8 +56,7 @@ main {
   } 
 }
 .embolden {
-    // text-shadow: 1px 0 0 $text-color-bold;
-    // color: $text-color-bold;
+    font-weight: bold;
 }
 .caps {
   text-transform: uppercase;
@@ -68,13 +72,13 @@ main {
     position: absolute;
     left: 0;
     top: 0;
-    font-weight: bold;
 }
 
 h2 {
   letter-spacing: -0.0rem;
   text-transform: uppercase;
   margin-bottom: 0;
+  font-weight: normal;
 }
 
 .post-list {
@@ -93,6 +97,9 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+.text-center {
+  text-align: center;
+}
 
 #drawingCanvas {
   position: fixed;
@@ -104,7 +111,7 @@ h2 {
   border: none;
 }
 header, .home, .resume, footer {
-  pointer-events: none;
+  // pointer-events: none;
   position: relative;
   z-index: 1;
   a {

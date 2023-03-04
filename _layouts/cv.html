@@ -20,11 +20,11 @@ layout: default
     {%- for item in group.items -%}
     <li>
         <div class="item_link">
-            <a href="{{item.url | relative_url}}">
-              <h3>{{item.title}}</h3>
-            </a>
+            <h3><a href="{{item.url | relative_url}}">
+              {{item.title}}
+            </a></h3>
         </div>
-        <div class="item_date embolden">
+        <div class="item_date">
           {{ item.date_str }}
         </div>
     </li>
