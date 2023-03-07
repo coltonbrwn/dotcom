@@ -4,13 +4,16 @@ layout: default
 
 {%- include header-wide.html -%}
 
+
 <div class="resume fade-in">
   <h2 class="post-list-heading embolden">
-    Selected Projects
+    {{ page.title | escape }}
   </h2>
   <ul class="article-list content-width">
-    {% for p in site.projects %}
-    {% include resume-li.html project=p %}
+    {% for p in site[page.collection] %}
+    {%- if p.render -%}
+        {% include resume-li.html project=p %}
+    {%- endif -%}
     {%- endfor -%}
   </ul>
 </div>

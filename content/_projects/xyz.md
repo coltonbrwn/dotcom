@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "XYZ.church"
+date_str: 02.2022
+date: 2022.02.11
 description: a collaboratively-funded, tokenized arts community
-role: Founder / Designer / Developer
+group_id: 8
 image: /assets/images/XYZ-mock.webp
-date_str: 2022
-sort_order: 0
+layout: post
+render: true
+role: Founder / Designer / Developer
+title: "XYZ.church"
 ---
 
 <ul class="article-list">

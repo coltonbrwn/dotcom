@@ -1,7 +1,11 @@
 ---
+date_str: 2021
+date: 2021.03.30
 layout: post
-title: The Complexity Stack
 link: https://docs.google.com/presentation/d/1VRSQp-fZrXdUYYz3kwn92WWiVtpLu5zdjFIAA-SgKGc/edit#slide=id.gcccd8de7e5_0_180
+render: true
+title: Guest Speaker @ On Deck Fellowship
+group_id: 7
 ---
 **Speaking the language of our counterparts**
 

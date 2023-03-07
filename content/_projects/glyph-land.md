@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "glyph.land"
+date_str: 04.2021
+date: 2021-04-11
 description: a meditation on globalization, and development, computer vision.
-role: Artist / Developer
+group_id: 7
 image: /assets/images/glyph_land_1.webp
-date_str: 2021
-sort_order: 1
+layout: post
+render: true
+role: Artist / Developer
+title: "glyph.land"
 ---
 
 ![illustration]({{site.baseurl}}/assets/images/glyph_land.webp)

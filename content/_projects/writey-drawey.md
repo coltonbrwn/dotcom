@@ -1,11 +1,13 @@
 ---
-layout: post
-title: writey drawey
-description: a collaborative artmaking web game conceived and created in 2020
-role: Designer / Developer
+date: 2021.05.06
+date_str: 2021
+description: a collaborative artmaking web game
+group_id: 7
 image: /assets/images/writey-drawey-00.png
-date_str: 2020
-sort_order: 2
+layout: post
+render: true
+role: Designer / Developer
+title: writey drawey
 ---
 ### Concept
 

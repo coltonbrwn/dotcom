@@ -8,20 +8,28 @@ layout: default
   <a class="bubble" href="#">design</a>
   <a class="bubble" href="#">music</a>
   <a class="bubble" href="#">code</a>
-  <a class="bubble" href="#">education</a>
   <a class="bubble" href="#">writing</a>
 </div>
 
 <div class="cv fade-in">
+
+  {% assign all_posts = "" | split: ',' %}
+  {%- for collection in site.collections -%}
+    {%- for item in site[collection.label] -%}
+      {%- if item.render -%}
+        {% assign all_posts = all_posts | push: item %}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
   
-  {%- assign groups = site.data.cv | group_by:"group_id" -%}
+  {%- assign groups = all_posts | sort: "date" | reverse | group_by: "group_id" -%}
   {%- for group in groups -%}
   <ul class="article-list">
     {%- for item in group.items -%}
     <li>
         <div class="item_link">
-            <h3><a href="{{item.url | relative_url}}">
-              {{item.title}}
+            <h3><a href="{{ item.url | relative_url }}">
+              {{ item.title }}
             </a></h3>
         </div>
         <div class="item_date">
@@ -33,3 +41,4 @@ layout: default
   {%- endfor -%}
 </div>
 
+{%- include canvas.html -%}

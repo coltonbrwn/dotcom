@@ -1,0 +1,10 @@
+{% assign p = include.project %}
+<li>
+    <div class="item_link embolden"><a href="{{p.url | relative_url}}"><h3>{{p.title}}</h3></a></div>
+    {%- if p.description -%}
+      <div class="item_description">{{p.description}}</div>
+    {%- endif -%}
+    <div class="item_date">
+      {{ p.date_str }}
+    </div>
+</li>

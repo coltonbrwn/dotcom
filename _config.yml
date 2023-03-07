@@ -12,20 +12,22 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  code:
-    output: true
   design:
-    output: true
-  education:
     output: true
   music:
     output: true
+  code:
+    output: true
+  writing:
+    output: true
+  freelance:
+    output: true
   experience:
     output: true
-    sort_by: sort_order
   projects:
     output: true
-    sort_by: sort_order
+  programs:
+    output: true
 
   
 exclude:

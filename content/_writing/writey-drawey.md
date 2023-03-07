@@ -1,7 +1,11 @@
 ---
+date_str: 05.2021
+date: 2021.05.06
+group_id: 7
 layout: post
-title: Writey Drawey
+render: true
 link: https://medium.com/p/fa485eed546e
+title: The Game That Almost Died During Covid
 ---
 ![You never know what you’re gonna get](images/writey-drawey-01.webp)
 

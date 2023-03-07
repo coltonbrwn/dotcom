@@ -110,8 +110,8 @@ h2 {
   height: 100%;
   border: none;
 }
-header, .home, .resume, footer {
-  // pointer-events: none;
+header, .home, .resume, footer, .cv {
+  pointer-events: none;
   position: relative;
   z-index: 1;
   a {
@@ -124,7 +124,7 @@ header, .home, .resume, footer {
 }
 
 .home {
-  margin-top: 3 * $spacing-unit;
+  margin-top: 2 * $spacing-unit;
   li.home__title-block {
     margin-bottom: 2 * $spacing-unit;
   }

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{%- include header-wide.html -%}
+
+<h1>Resume</h1>
+
+<div class="resume fade-in">
+  <h2 class="post-list-heading embolden">
+    Selected Projects
+  </h2>
+  <ul class="article-list content-width">
+    {% for p in site.projects %}
+    {% include resume-li.html project=p %}
+    {%- endfor -%}
+  </ul>
+  <h2 class="post-list-heading embolden">
+    Professional Experience
+  </h2>
+  <ul class="article-list content-width">
+    {% for p in site.experience %}
+    {% include resume-li.html project=p %}
+    {%- endfor -%}
+  </ul>
+  <h2 class="post-list-heading embolden">
+    Education
+  </h2>
+  <ul class="article-list content-width">
+    {% for p in site.education %}
+    {% include resume-li.html project=p %}
+    {%- endfor -%}
+  </ul>
+</div>
+
+{%- include canvas.html -%}
