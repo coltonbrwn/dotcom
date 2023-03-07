@@ -133,12 +133,20 @@ header, .home, .resume, footer, .cv {
 .cv__picker {
   margin: $spacing-unit 0 $spacing-unit*2 0;
   .bubble {
+    pointer-events: all;
     border: 1px solid black;
     padding: $spacing-unit / 6 $spacing-unit / 2;
     white-space: nowrap;
     border-radius: $spacing-unit / 2;
     margin-right: $spacing-unit / 4;
     box-shadow: 5px 4px 0 rgba(98, 98, 98, 0.38);
+    &.active {
+      background: rgb(90, 90, 90);
+      border-color:  rgb(90, 90, 90);
+      a {
+        color: white;
+      }
+    }
   }
 }
 

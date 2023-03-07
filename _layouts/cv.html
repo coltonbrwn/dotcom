@@ -4,14 +4,9 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<div class="cv__picker fade-in">
-  <a class="bubble" href="#">design</a>
-  <a class="bubble" href="#">music</a>
-  <a class="bubble" href="#">code</a>
-  <a class="bubble" href="#">writing</a>
-</div>
-
 <div class="cv fade-in">
+
+  {%- include cv-picker.html -%}
 
   {% assign all_posts = "" | split: ',' %}
   {%- for collection in site.collections -%}

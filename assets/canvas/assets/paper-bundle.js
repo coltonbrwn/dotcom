@@ -33,13 +33,12 @@ function onMouseMove(event) {
 	if (!path) {
         path = new Path({
             segments: [transformPoint(event.point)],
-            strokeColor: 'black',
+            strokeColor: "#8E837A",
+			strokeWidth: 100,
             // Select the path, so we can see its segment points:
             // fullySelected: true
         });
     }
-
-	console.log(path.segments.length)
 
 	if (path.segments.length > 400) {
 		path.removeSegment(0)
