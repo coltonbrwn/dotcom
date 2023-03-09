@@ -1,7 +1,20 @@
 {% assign p = include.project %}
+{% assign description = include.description %}
 <li>
-    <div class="item_link embolden"><a href="{{p.url | relative_url}}"><h3>{{p.title}}</h3></a></div>
-    {%- if p.description -%}
+    <div class="item_link embolden">
+      <h3>
+        {%- if (p.hasContent) -%}
+          <a href="{{ p.url | relative_url }}">
+            {{ p.title }}
+          </a>
+        {%- else -%}
+          <span>
+            {{ p.title }}
+          </span>
+        {%- endif -%}
+      </h3>
+    </div>
+    {%- if p.description and description -%}
       <div class="item_description">{{p.description}}</div>
     {%- endif -%}
     <div class="item_date">

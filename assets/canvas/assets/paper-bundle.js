@@ -9,7 +9,7 @@ function transformPoint(point) {
 
 function onFrame() {
 	if (!path) {
-		path = loadPath()
+		// path = loadPath()
 	}
 }
 
@@ -34,7 +34,7 @@ function onMouseMove(event) {
         path = new Path({
             segments: [transformPoint(event.point)],
             strokeColor: "#8E837A",
-			strokeWidth: 100,
+			strokeWidth: 100
             // Select the path, so we can see its segment points:
             // fullySelected: true
         });
@@ -44,5 +44,5 @@ function onMouseMove(event) {
 		path.removeSegment(0)
 	}
 	path.add(transformPoint(event.point));
-	savePath(path)
+	// savePath(path)
 }

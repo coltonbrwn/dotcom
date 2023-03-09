@@ -5,4 +5,5 @@ group_id: 2
 layout: post
 render: true
 title: Freelance Developer @ Seekpanda
+isSelectedWork: 0
 ---

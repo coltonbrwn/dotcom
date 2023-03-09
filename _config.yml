@@ -12,19 +12,14 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  design:
-    output: true
   music:
-    output: true
-  code:
     output: true
   writing:
     output: true
   design-code:
     output: true
+    sort_by: isSelectedWork
   experience:
-    output: true
-  projects:
     output: true
   programs:
     output: true

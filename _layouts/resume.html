@@ -12,7 +12,9 @@ layout: default
   </h2>
   <ul class="article-list content-width">
     {% for p in site.projects %}
-    {% include resume-li.html project=p %}
+    {%- if p.render -%}
+      {% include resume-li.html project=p %}
+    {%- endif -%}
     {%- endfor -%}
   </ul>
   <h2 class="post-list-heading embolden">
@@ -27,8 +29,10 @@ layout: default
     Education
   </h2>
   <ul class="article-list content-width">
-    {% for p in site.education %}
-    {% include resume-li.html project=p %}
+    {% for p in site.programs %}
+    {%- if p.resumeEducationLine -%}
+      {% include resume-li.html project=p %}
+    {%- endif -%}
     {%- endfor -%}
   </ul>
 </div>

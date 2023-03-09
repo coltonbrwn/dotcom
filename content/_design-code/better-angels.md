@@ -5,4 +5,5 @@ group_id: 4
 layout: post
 render: true
 title: Better Angels w/ For Good Measure (dev)
+isSelectedWork: 0
 ---

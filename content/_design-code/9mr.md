@@ -5,4 +5,5 @@ group_id: 6
 layout: post
 render: true
 title: 9millionreasons.nyc
+isSelectedWork: 0
 ---

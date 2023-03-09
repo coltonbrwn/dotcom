@@ -4,17 +4,17 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<div class="resume fade-in">
+<div class="resume">
 
   {{ content }}
-  
-  <ul class="article-list content-width">
+
+  <ul class="article-list content-width fade-in">
     {% assign collection = site[page.collection] | sort: "date" | reverse %}
     {% for p in collection %}
     {%- if p.render -%}
-        {% include resume-li.html project=p %}
+        {% include resume-li.html project=p description=false %}
     {%- endif -%}
-    {%- endfor -%}
+    {% endfor %}
   </ul>
 </div>
 

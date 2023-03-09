@@ -5,4 +5,5 @@ group_id: 4
 layout: 'post'
 render: true
 title:  forgoodmeasure.us
+isSelectedWork: 0
 ---

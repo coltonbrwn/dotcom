@@ -1,13 +1,13 @@
 <footer class="site-footer">
   <div class="flex-wrapper">
     <h2>
-      <a href="/CV">CV</a>
+      <a href="{{ page.next.url }}">Previous</a>
     </h2>
     <h2>
-      <a href="/about">About</a>
+      <a href="/{{ page.collection }}">View all {{ page.collection }}</a>
     </h2>
     <h2>
-      <a href="/resume">Work</a>
+      <a href="{{ page.previous.url }}">Next</a>
     </h2>
   </div>  
 </footer>

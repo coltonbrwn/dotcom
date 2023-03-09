@@ -7,14 +7,14 @@
     <main aria-label="Content">
       {%- include header-wide.html -%}
 
-      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="post h-entry fade-in" itemscope itemtype="http://schema.org/BlogPosting">
 
         <header class="post-header">
           <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-          <h3 class="embolden">
+          <h2 class="embolden">
             {{ page.description }}
-          </h3>
-          <p class="post-meta">
+          </h2>
+          <p class="post-meta" hidden>
             <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               {{ page.date | date: date_format }}
@@ -24,12 +24,15 @@
             {%- endif -%}</p>
         </header>
       
-        <div class="post-content content-width" itemprop="articleBody">
+        <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>
       
         <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </article>
+    
+      {%- include footer.html -%}
+
     </main>
 
   </body>

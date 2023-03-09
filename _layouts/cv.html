@@ -4,7 +4,7 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<div class="cv fade-in">
+<div class="cv">
 
   {%- include cv-picker.html -%}
 
@@ -19,18 +19,9 @@ layout: default
   
   {%- assign groups = all_posts | sort: "date" | reverse | group_by: "group_id" -%}
   {%- for group in groups -%}
-  <ul class="article-list">
+  <ul class="article-list content-width fade-in">
     {%- for item in group.items -%}
-    <li>
-        <div class="item_link">
-            <h3><a href="{{ item.url | relative_url }}">
-              {{ item.title }}
-            </a></h3>
-        </div>
-        <div class="item_date">
-          {{ item.date_str }}
-        </div>
-    </li>
+    {%- include resume-li.html project=item -%}
     {%- endfor -%}
   </ul>
   {%- endfor -%}

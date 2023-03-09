@@ -5,4 +5,5 @@ group_id: 6
 layout: 'post'
 render: true
 title:  birthdaywinepicnic.net
+isSelectedWork: 0
 ---

@@ -5,4 +5,5 @@ group_id: 4
 layout: post
 render: true
 title: OOO w/ For Good Measure (dev)
+isSelectedWork: 0
 ---

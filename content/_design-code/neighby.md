@@ -5,6 +5,7 @@ group_id: 5
 layout: post
 render: true
 title: Neighby (design & dev)
+isSelectedWork: 0
 ---
 
 ## Neighby

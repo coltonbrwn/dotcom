@@ -8,6 +8,7 @@ layout: post
 render: true
 role: Artist / Developer
 title: "glyph.land"
+isSelectedWork: 1
 ---
 
 ![illustration]({{site.baseurl}}/assets/images/glyph_land.webp)

@@ -41,9 +41,18 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin-bottom: 3 * $spacing-unit;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 .content-width {
   width: $content-width;
+}
+.content-offset {
+  padding-left: 5*$spacing-unit;
 }
 .cv .article-list li {
   margin-bottom: 0;
@@ -74,6 +83,11 @@ main {
     top: 0;
 }
 
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 $spacing-unit/4 0;
+}
+
 h2 {
   letter-spacing: -0.0rem;
   text-transform: uppercase;
@@ -91,6 +105,20 @@ h2 {
 }
 .post-list-heading {
   margin: $spacing-unit 0;
+}
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+.post-header, .post-content {
+  p {
+    margin-bottom: $spacing-unit;
+  }
+  img {
+    padding: $spacing-unit 0;
+  }
+  .item_description {
+    text-align: justify;
+  }
 }
 
 .flex-wrapper {

@@ -8,6 +8,7 @@ layout: post
 render: true
 role: Designer & Developer
 title: "volley.studio"
+isSelectedWork: 1
 ---
 ## Volley Studio
 

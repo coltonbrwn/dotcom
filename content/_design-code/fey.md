@@ -5,4 +5,5 @@ group_id: 5
 layout: post
 render: true
 title: Fey Arts
+isSelectedWork: 0
 ---
