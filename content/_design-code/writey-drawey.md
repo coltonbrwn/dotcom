@@ -12,7 +12,7 @@ hasContent: true
 isSelectedWork: 1
 ---
 
-<ul class="article-list content-width">
+<ul class="article-list content-width content-offset">
     <li class="home__title-block">
         <div class="item_description">
             <p>
@@ -49,7 +49,7 @@ isSelectedWork: 1
     </li>
 </ul>
 
-<div class="photo-row">
+<div class="photo-row content-offset">
     <img style="width: 70em;" src="images/wd-screens.png" />
 </div>
 

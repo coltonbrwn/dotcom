@@ -13,7 +13,7 @@ isSelectedWork: 1
 
 ---
 
-<ul class="article-list content-width">
+<ul class="article-list content-width content-offset">
     <li class="home__title-block">
         <div class="item_description">
             <p>
@@ -26,12 +26,12 @@ isSelectedWork: 1
     </li>
 </ul>
 
-<div class="photo-row">
+<div class="photo-row content-offset">
     <img style="height: 20em;" src="images/xyz-mock-1.png" />
     <img style="height: 20em;" src="images/xyz-mock-2.png" />
 </div>
  
-<ul class="article-list content-width">
+<ul class="article-list content-width content-offset">
     <li class="home__title-block">
         <div class="item_description">
             <p>
@@ -45,13 +45,13 @@ isSelectedWork: 1
     </li>
 </ul>
 
-<p class="content-width">
+<p class="content-width content-offset">
     XYZ is tokenized via $WAV. That means that holders of $WAV can use it to vote on initiatives or exchange it for ETH. The overall demand of $WAV tokens informs the valuation of the organization, and the supply is set internally.
 
     The primary purpose of XYZ is to release new music. Initially the DAO invests funds from its treasury to cover production costs for the release, including recording, engineering, artwork, and artist advances. As a reward for participating in each release, $WAV tokens are minted and issued to DAO members, giving them added voting power and increased ownership. The music is finally sold as an NFT, with proceeds split between the artists and the DAO treasury. 
 </p>
 
-<ul class="article-list content-width">
+<ul class="article-list content-width content-offset">
     <li class="home__title-block">
         <div class="item_description">
             <p>
@@ -76,6 +76,6 @@ isSelectedWork: 1
     </li>
 </ul>
 
-<div class="photo-row" style="text-align: center;">
+<div class="photo-row content-offset" style="">
     <img style="width: 40em;" src="images/XYZ-mint 2.png" />
 </div>
