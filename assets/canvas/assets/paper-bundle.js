@@ -27,13 +27,24 @@ function loadPath() {
 	return path
 }
 
+function pickColor() {
+	var colors = [
+		'#717186',
+		'#8F8883',
+		'#C2B7C1',
+		'#E3D7B7',
+		'#8B8F83'
+	]
+	return colors[ Math.floor(Math.random() * colors.length)]
+}
+
 // While the user drags the mouse, points are added to the path
 // at the position of the mouse:
 function onMouseMove(event) {
 	if (!path) {
         path = new Path({
             segments: [transformPoint(event.point)],
-            strokeColor: "#8E837A",
+            strokeColor: pickColor(),
 			strokeWidth: 100
             // Select the path, so we can see its segment points:
             // fullySelected: true
