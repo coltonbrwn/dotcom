@@ -9,6 +9,7 @@ render: true
 role: Artist / Developer
 title: "glyph.land"
 isSelectedWork: 1
+hasContent: true
 ---
 
 ![illustration]({{site.baseurl}}/assets/images/glyph_land.webp)

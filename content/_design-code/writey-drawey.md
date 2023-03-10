@@ -50,7 +50,7 @@ isSelectedWork: 1
 </ul>
 
 <div class="photo-row content-offset">
-    <img style="width: 70em;" src="images/wd-screens.png" />
+    <img style="width: 40em;" src="images/wd-laptop.png" />
 </div>
 
 <ul class="article-list content-width">
