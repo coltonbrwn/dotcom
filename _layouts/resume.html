@@ -11,9 +11,10 @@ layout: default
     Selected Projects
   </h2>
   <ul class="article-list content-width">
-    {% for p in site.projects %}
-    {%- if p.render -%}
-      {% include resume-li.html project=p %}
+    {% assign ps = site.design-code | sort: 'date' | reverse %}
+    {% for p in ps %}
+    {%- if p.isSelectedWork == 1 -%}
+      {% include resume-li.html project=p description=true %}
     {%- endif -%}
     {%- endfor -%}
   </ul>
@@ -22,7 +23,7 @@ layout: default
   </h2>
   <ul class="article-list content-width">
     {% for p in site.experience %}
-    {% include resume-li.html project=p %}
+    {% include resume-li.html project=p description=true %}
     {%- endfor -%}
   </ul>
   <h2 class="post-list-heading embolden">
@@ -31,7 +32,7 @@ layout: default
   <ul class="article-list content-width">
     {% for p in site.programs %}
     {%- if p.resumeEducationLine -%}
-      {% include resume-li.html project=p %}
+      {% include resume-li.html project=p%}
     {%- endif -%}
     {%- endfor -%}
   </ul>

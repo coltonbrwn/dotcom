@@ -187,3 +187,10 @@ header, .home, .resume, footer, .cv {
   opacity: 0;
   transition: opacity 800ms;
 }
+
+.homepage-row {
+  display: flex;
+  .cv {
+    padding-left:  $spacing-unit;
+  }
+}
