@@ -1,0 +1,42 @@
+<div class="home-imgs fade-in">
+
+    <div class="home-imgs__img hidden">
+        <img src="/assets/images/wd-mock.png" data-tilt />
+        <h3>Writey Drawey</h3>
+        <a href="/design-code/writey-drawey">
+            <i>View Project</i>
+        </a>
+    </div>
+
+    <div class="home-imgs__img hidden">
+        <img src="/assets/images/xyz-mock-devices.png" data-tilt />
+        <h3>XYZ.church</h3>
+        <a href="/design-code/xyz">
+            <i>View Project</i>
+        </a>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+
+    var numProjects = 2;
+    var selectedIndex = Math.floor(numProjects * Math.random());
+    var projects = document.querySelectorAll('.home-imgs__img');
+    
+    [].forEach.call(projects, function(el) {
+        el.querySelector('img').onclick = clickImage;
+    });
+    
+    projects[selectedIndex].classList.remove('hidden');
+
+    function clickImage(el) {
+        projects[selectedIndex].classList.add('hidden');
+        selectedIndex ++;
+        if(selectedIndex >= numProjects) {
+            selectedIndex = 0;
+        } 
+        projects[selectedIndex].classList.remove('hidden');
+    }
+
+</script>

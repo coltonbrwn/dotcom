@@ -33,6 +33,15 @@
         margin-bottom: 0.25 * $spacing-unit;
       }
     }
+    &.socials {
+      margin-top: 6*$spacing-unit;
+      a {
+        padding: 0 0.5em;
+        &:first-of-type {
+          padding-left: 0;
+        }
+      }
+    }
 }
 
 main {
@@ -160,6 +169,9 @@ header, .home, .resume, footer, .cv {
     margin-bottom: 2 * $spacing-unit;
   }
 }
+.resume {
+  margin-bottom: 4*$spacing-unit;
+}
 
 .cv__picker {
   margin: $spacing-unit 0 $spacing-unit*2 0;
@@ -179,6 +191,25 @@ header, .home, .resume, footer, .cv {
       a {
         color: white;
       }
+    }
+  }
+}
+
+.home-imgs {
+  text-align: center;
+  overflow: hidden;
+  margin: auto 0;
+  padding-bottom: 8em;
+  img {
+    width: 66%;
+    cursor: pointer;
+  }
+  &__img {
+    &.hidden {
+      display: none;
+    }
+    img {
+      margin-bottom: 2*$spacing-unit;
     }
   }
 }
