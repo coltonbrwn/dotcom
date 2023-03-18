@@ -1,6 +1,9 @@
 {% assign p = include.project %}
 {% assign description = include.description %}
 <li>
+    <div class="item_date">
+      {{ p.date_str }}
+    </div>
     <div class="item_link embolden">
       <h3>
         {%- if (p.hasContent) -%}
@@ -17,7 +20,4 @@
     {%- if p.description and description -%}
       <div class="item_description">{{p.description}}</div>
     {%- endif -%}
-    <div class="item_date">
-      {{ p.date_str }}
-    </div>
 </li>
