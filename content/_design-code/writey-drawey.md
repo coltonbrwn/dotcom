@@ -1,15 +1,14 @@
 ---
-date: 2021.05.06
 date_str: 2021
+date: 2021.05.06
 description: a collaborative artmaking web game
 group_id: 7
+hasContent: true
 image: /assets/images/writey-drawey-00.png
+isSelectedWork: 1
 layout: post
 render: true
-role: Designer / Developer
 title: writey drawey
-hasContent: true
-isSelectedWork: 1
 ---
 
 <ul class="article-list content-width content-offset">

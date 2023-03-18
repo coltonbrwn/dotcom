@@ -3,19 +3,72 @@ date_str: 2019
 date: 2019-12-12
 description: an interactive portfolio website
 group_id: 5
+hasContent: true
 image: /assets/images/glyph_land_1.webp
+isSelectedWork: 1
 layout: post
 render: true
-role: Designer & Developer
 title: "volley.studio"
-isSelectedWork: 1
 ---
-## Volley Studio
 
-**Tag**: Designing a unique web experience for an NYC-based 3D rendering company
+<div class="photo-row">
+    <img style="height: 30em;" src="images/volley-cover.png" />
+</div>
 
-**About**: Volley Studio (Brooklyn, NY) is a small company specializing in the creation of high-quality 3D renderings for commercial architects and developers. I helped Volley redesign their website with the goal of displaying their work in an unconventional, original way. We were particularly interested in presenting the work as a series of overlapping images that could be moved around the screen freely.
 
-**Design Process**: I worked closely with the internal team at Volley to design and prototype the site, using the team's initial sketches as a starting point and moving through multiple rounds of revision and refinement to arrive at the final design. The result is clean and pared-back, letting the images take a central focus and remaining faithful to the detail-oriented, diligent and creative culture behind Volley Studio.
+<ul class="article-list content-width content-offset">
+    <li class="home__title-block">
+        <div class="item_description">
+            <p>
+                Brooklyn-based Volley Studio specializes in high-quality 3D renderings for architects and developers. I created a new website that displays Volly’s work in an unconventional and memorable way.            
+            </p>
+        </div>
+        <div class="item_date">
+            <h2>About</h2>
+        </div>
+    </li>
+    <img style="height: 30em; padding-left: 8.8em" src="images/volley-process.png" />
+    <li class="home__title-block">
+        <div class="item_description">
+            <p>
+                We were interested in presenting Volley’s work as a series of overlapping images that could be moved around the screen freely. After a handful of rounds of design, prototyping, and feedback, we evolved this concept to be more simple and less demanding of the user.            
+            </p>
+        </div>
+        <div class="item_date">
+            <h2>Process</h2>
+        </div>
+    </li>
+</ul>
 
-**Tech:** Next.js + React, Sanity CMS, CSS3 Animation
+<div style="height: 30em;">
+    <video style="height: 100%;" src="https://stream.mux.com/DLHZ02CVJtWLxjqZcDJlffJkNk8a3cUcaB3sNMtfZBFY.m3u8" autoplay loop ></video>
+</div>
+
+<ul class="article-list content-width content-offset">
+    <li class="home__title-block">
+        <div class="item_description">
+            <p>
+                We were interested in presenting Volley’s work as a series of overlapping images that could be moved around the screen freely. After a handful of rounds of design, prototyping, and feedback, we evolved this concept to be more simple and less demanding of the user.            
+            </p>
+        </div>
+        <div class="item_date">
+            <h2>Concept</h2>
+        </div>
+    </li>
+</ul>
+
+
+<div class="case-study-ui-images">
+    <h2>Screens</h2>
+    <img style="height: 30em;" src="images/volley-ui-1.png" />
+    <img style="height: 30em;" src="images/volley-ui-2.png" />
+    <img style="height: 30em;" src="images/volley-ui-3.png" />
+    <img style="height: 30em;" src="images/volley-ui-4.png" />
+    <img style="height: 30em;" src="images/volley-ui-5.png" />
+    <img style="height: 30em;" src="images/volley-ui-6.png" />
+    <img style="height: 30em;" src="images/volley-ui-7.png" />
+    <img style="height: 30em;" src="images/volley-ui-8.png" />
+    <img style="height: 30em;" src="images/volley-ui-9.png" />
+    <img style="height: 30em;" src="images/volley-ui-10.png" />
+    <img style="height: 30em;" src="images/volley-ui-11.png" />
+</div>

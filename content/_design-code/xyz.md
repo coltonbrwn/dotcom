@@ -1,7 +1,7 @@
 ---
 date_str: 02.2022
 date: 2022.02.11
-description: a collaboratively-funded, tokenized arts community
+description: an experimental funding model for indepndent music
 group_id: 8
 image: /assets/images/XYZ-mock.webp
 layout: post
@@ -17,7 +17,7 @@ isSelectedWork: 1
     <li class="home__title-block">
         <div class="item_description">
             <p>
-                What if we leveraged web3 tech to support independent music? “XYZ” is a project designed to facilitate ownership, transparency, and shared incentive for music communities. It takes on many of the roles of a music label where community members are co-owners in the cultural output they create.
+                “XYZ” aimed to funnel digital crypto wealth into independent music. It acheieved this by selling access to a
             </p>
         </div>
         <div class="item_date">
