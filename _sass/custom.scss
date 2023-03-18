@@ -19,10 +19,14 @@
 }
 @font-face {
   font-family: 'Forme';
-  font-weight: 900;
-  src: url("fonts/Forme/forme-grotesque-black-trial.otf");
+  font-weight: 700;
+  src: url("fonts/Forme/forme-grotesque-medium-trial.otf");
 }
-
+@font-face {
+  font-family: 'Forme';
+  font-weight: 300;
+  src: url("fonts/Forme/forme-grotesque-light-trial.otf");
+}
 .article-list {
     list-style: none;
     li {
@@ -195,11 +199,34 @@ header, .home, .resume, footer, .cv {
   }
 }
 
-.home-imgs {
+.home-pg {
   text-align: center;
   overflow: hidden;
   margin: auto 0;
-  padding-bottom: 8em;
+  flex: 1;
+  display: flex;
+  padding-bottom: 4*$spacing-unit;
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 40em;
+    padding-left: 2 * $spacing-unit;
+    h6 {
+      white-space: nowrap;
+      a:hover {
+        text-decoration: none;
+      }
+      &.selected {
+        font-weight: bold;
+      }
+    }
+  }
+  &__imgs {
+    display: flex;
+    align-items: center;
+  }
   img {
     width: 66%;
     cursor: pointer;
@@ -208,10 +235,13 @@ header, .home, .resume, footer, .cv {
     &.hidden {
       display: none;
     }
-    img {
-      margin-bottom: 2*$spacing-unit;
-    }
   }
+}
+
+h6 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: 300;
 }
 
 .fade-in {
@@ -223,5 +253,16 @@ header, .home, .resume, footer, .cv {
   display: flex;
   .cv {
     padding-left:  $spacing-unit;
+  }
+}
+
+.case-study-ui-images {
+  text-align: center;
+  img {
+    margin: 4*$spacing-unit auto;
+    display: block;
+    box-shadow: $spacing-unit / 8 $spacing-unit / 8 $spacing-unit / 8 rgba(0, 0, 0, 0.244);
+    border-radius: $spacing-unit / 8;
+    padding: 0;
   }
 }

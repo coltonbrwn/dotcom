@@ -1,42 +1,78 @@
-<div class="home-imgs fade-in">
-
-    <div class="home-imgs__img hidden">
-        <img src="/assets/images/wd-mock.png" data-tilt />
-        <h3>Writey Drawey</h3>
-        <a href="/design-code/writey-drawey">
-            <i>View Project</i>
-        </a>
+<div class="home-pg fade-in">
+    <div class="home-pg__menu">
+        <h6 data-project-index=0> 
+            <a href="#">
+                Writey Drawey
+            </a>
+        </h6>
+        <h6 data-project-index=1>
+            <a href="#">
+                XYZ.Church
+            </a>
+        </h6>
+        <h6 data-project-index=2>
+            <a href="#">
+                Volley
+            </a>
+        </h6>
+        <h6>
+            <a href="/cv">
+                All Projects
+            </a>
+        </h6>
     </div>
+    <div class="home-pg__imgs">
+        <div class="home-pg__img hidden">
+            <a href="/design-code/writey-drawey">
+                <img src="/assets/images/wd-mock.png" data-tilt />
+            </a>
+        </div>
 
-    <div class="home-imgs__img hidden">
-        <img src="/assets/images/xyz-mock-devices.png" data-tilt />
-        <h3>XYZ.church</h3>
-        <a href="/design-code/xyz">
-            <i>View Project</i>
-        </a>
+        <div class="home-pg__img hidden">
+            <a href="/design-code/xyz">
+                <img src="/assets/images/xyz-mock-devices.png" data-tilt />
+            </a>
+        </div>
+
+        <div class="home-pg__img hidden">
+            <a href="/design-code/volley-studio">
+                <img src="/assets/images/volley-mockup.png" data-tilt />
+            </a>
+        </div>
     </div>
-
 </div>
 
 <script type="text/javascript">
-
-    var numProjects = 2;
-    var selectedIndex = Math.floor(numProjects * Math.random());
-    var projects = document.querySelectorAll('.home-imgs__img');
     
-    [].forEach.call(projects, function(el) {
-        el.querySelector('img').onclick = clickImage;
+    var projects = document.querySelectorAll('.home-pg__img');
+    var titles = document.querySelectorAll('.home-pg__menu h6');
+    var numProjects = projects.length;
+    var selectedIndex = Math.floor(Math.random() * numProjects);
+
+    [].forEach.call(titles, function(el) {
+        el.querySelector('a').onclick = onClickTitle.bind(null, el);
+        if (el.dataset.projectIndex == selectedIndex) {
+            el.classList.add('selected')
+        }
     });
-    
-    projects[selectedIndex].classList.remove('hidden');
 
-    function clickImage(el) {
-        projects[selectedIndex].classList.add('hidden');
-        selectedIndex ++;
-        if(selectedIndex >= numProjects) {
-            selectedIndex = 0;
-        } 
-        projects[selectedIndex].classList.remove('hidden');
+    [].forEach.call(projects, function(el, index) {
+        if (index == selectedIndex) {
+            el.classList.remove('hidden')
+        }
+    })
+
+    function onClickTitle(el) {
+        var projectIndex = el.dataset.projectIndex;
+        [].forEach.call(titles, function(el) {
+            el.classList.remove('selected')
+        });
+        [].forEach.call(projects, function(el) {
+            el.classList.add('hidden')
+        })
+        projects[projectIndex].classList.remove('hidden');
+        titles[projectIndex].classList.add('selected');
     }
+
 
 </script>
