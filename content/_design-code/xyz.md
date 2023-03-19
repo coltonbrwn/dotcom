@@ -14,7 +14,7 @@ isSelectedWork: 1
 ---
 
 <ul class="article-list content-width content-offset">
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_description">
             <p>
                 “XYZ” aimed to funnel digital crypto wealth into independent music. It acheieved this by selling access to a
@@ -27,12 +27,12 @@ isSelectedWork: 1
 </ul>
 
 <div class="photo-row content-offset">
-    <img style="height: 20em;" src="images/xyz-mock-1.png" />
-    <img style="height: 20em;" src="images/xyz-mock-2.png" />
+    <img style="max-height: 20em;" src="images/xyz-mock-1.png" />
+    <img style="max-height: 20em;" src="images/xyz-mock-2.png" />
 </div>
  
 <ul class="article-list content-width content-offset">
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_description">
             <p>
                 To investigate this use case, I built a crypto-native music distribution platform. I raised funds through a mirror crowdfund, started a gated discord server, distributed tokens to community members and shipped a web platform to sell music NFTs with a custom contract to distribute a configurable portion of NFT proceeds to the DAO.
@@ -52,7 +52,7 @@ isSelectedWork: 1
 </p>
 
 <ul class="article-list content-width content-offset">
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_description">
             <p>
                 The project raised public funding on October 28th 2021, launched on February 11th with its first release, and eventually wound-down on April 1, 2021 after I decided the project was not sustainable. 
@@ -62,7 +62,7 @@ isSelectedWork: 1
             <h2>timeline</h2>
         </div>
     </li>
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_description">
             <p>
                 The rise of the internet brought with it the fall of traditional record sales, with major labels scrambling to recooperate profits lost from piracy throughout the 90s and 00s. In the decades since, streaming has slowly grown into an economicallty viable alternative, with industry profits recently returning to their pre-internet numbers.

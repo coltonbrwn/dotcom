@@ -15,7 +15,7 @@ hasContent: true
 <img src="images/your-art-aqui-wide.jpeg" />
 
 <ul class="article-list content-width content-offset">
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_date">
             <h2>concept</h2>
         </div>
@@ -26,7 +26,7 @@ hasContent: true
             </p>
         </div>
     </li>
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_date">
             <h2>Glyph Land</h2>
         </div>
@@ -36,7 +36,7 @@ hasContent: true
             </p>
         </div>
     </li>
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_date">
             <h2>Interpretation</h2>
         </div>
@@ -47,7 +47,7 @@ hasContent: true
             </p>
         </div>
     </li>
-    <li class="home__title-block">
+    <li class="article-list__title-block">
         <div class="item_date">
             <h2>Learnings</h2>
         </div>

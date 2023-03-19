@@ -49,6 +49,20 @@
         }
       }
     }
+    &__title-block {
+      h2 {
+        @include media-query($on-palm) {
+          font-weight: bold;
+        }
+      }
+    }
+}
+
+.push-left-1 {
+  padding-left: 4 * $spacing-unit;
+  @include media-query($on-laptop) {
+    padding-left: 0;
+  }
 }
 
 main {
@@ -72,6 +86,9 @@ a:hover {
 }
 .content-offset {
   padding-left: 4*$spacing-unit;
+  @include media-query($on-lg) {
+    padding-left: 0;
+  }
 }
 .cv .article-list li {
   margin-bottom: 0;
@@ -140,7 +157,8 @@ h2 {
     margin-bottom: $spacing-unit;
   }
   img {
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
   }
   .item_description {
     text-align: justify;
@@ -187,7 +205,7 @@ header, .home, .resume, footer, .cv {
 
 .home {
   margin-top: 2 * $spacing-unit;
-  li.home__title-block {
+  li.article-list__title-block {
     margin-bottom: 2 * $spacing-unit;
   }
 }
@@ -274,7 +292,7 @@ header, .home, .resume, footer, .cv {
     @include media-query($on-sm) {
       margin-bottom: 2*$spacing-unit;
       h2 {
-        margin-top: $spacing-unit/2;
+        margin-top: $spacing-unit / 2;
       }
     }
     i {
@@ -321,7 +339,6 @@ h6 {
 }
 
 .case-study-ui-images {
-  text-align: center;
   img {
     margin: 4*$spacing-unit auto;
     display: block;
