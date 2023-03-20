@@ -265,11 +265,18 @@ header, .home, .resume, footer, .cv {
     }
     h6 {
       white-space: nowrap;
-      a:hover {
-        text-decoration: none;
+      a {
+        color:rgb(83, 83, 83);
+        &:hover {
+          text-decoration: none;
+          color:rgb(35, 35, 35)
+        }
       }
       &.selected {
         font-weight: bold;
+        a {
+          color:rgb(35, 35, 35);
+        }
       }
     }
   }

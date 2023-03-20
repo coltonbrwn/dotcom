@@ -1,7 +1,7 @@
 ---
 date_str: 2021
 date: 2021.05.06
-description: a collaborative artmaking web game
+description: an online version of the game teledraw
 group_id: 7
 hasContent: true
 image: /assets/images/writey-drawey-00.png
@@ -10,6 +10,10 @@ layout: post
 render: true
 title: writey drawey
 ---
+
+<div class="photo-row">
+    <img style="max-width: 50em;" src="images/wd/wd-clay-1.png" />
+</div>
 
 <ul class="article-list content-width content-offset">
     <li class="article-list__title-block">
@@ -64,3 +68,15 @@ title: writey drawey
         </div>
     </li>
 </ul>
+
+
+<div class="case-study-ui-images">
+    <img style="max-width: 40em;" src="images/wd/8.png" />
+    <img style="max-height: 30em;" src="images/wd/1.png" />
+    <img style="max-height: 30em;" src="images/wd/2.png" />
+    <img style="max-height: 30em;" src="images/wd/3.png" />
+    <img style="max-height: 30em;" src="images/wd/4.png" />
+    <img style="max-height: 30em;" src="images/wd/5.png" />
+    <img style="max-height: 30em;" src="images/wd/6.png" />
+    <img style="max-width: 40em;" src="images/wd/7.png" />
+</div>

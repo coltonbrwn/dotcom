@@ -12,7 +12,7 @@ title: "volley.studio"
 ---
 
 <div class="photo-row">
-    <img style="max-height: 30em;" src="images/volley-cover.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-cover.png" />
 </div>
 
 
@@ -27,7 +27,7 @@ title: "volley.studio"
             </p>
         </div>
     </li>
-    <img style="max-height: 30em;" class="push-left-1" src="images/volley-process.png" />
+    <img style="max-height: 30em;" class="push-left-1" src="images/volley/volley-process.png" />
     <li class="article-list__title-block">
         <div class="item_date">
             <h2>Process</h2>
@@ -42,7 +42,7 @@ title: "volley.studio"
 
 <div style="max-height: 30em; margin-bottom: 2em;">
     <video
-        poster="images/volley-stack-poster.png"
+        poster="images/volley/volley-stack-poster.png"
         style="max-height: 30em;"
         autoplay muted loop
     >
@@ -65,15 +65,15 @@ title: "volley.studio"
 
 
 <div class="case-study-ui-images">
-    <img style="max-height: 30em;" src="images/volley-ui-1.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-2.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-3.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-4.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-5.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-6.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-7.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-8.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-9.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-10.png" />
-    <img style="max-height: 30em;" src="images/volley-ui-11.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-1.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-2.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-3.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-4.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-5.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-6.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-7.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-8.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-9.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-10.png" />
+    <img style="max-height: 30em;" src="images/volley/volley-ui-11.png" />
 </div>
