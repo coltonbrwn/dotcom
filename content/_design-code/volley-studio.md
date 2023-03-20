@@ -9,9 +9,10 @@ isSelectedWork: 1
 layout: post
 render: true
 title: "volley.studio"
+ext_link: https://volley.archive.coltonbrown.com
 ---
 
-<div class="photo-row">
+<div class="photo-row content-width content-offset">
     <img style="max-height: 30em;" src="images/volley/volley-cover.png" />
 </div>
 

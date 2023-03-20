@@ -9,10 +9,12 @@ isSelectedWork: 1
 layout: post
 render: true
 title: writey drawey
+ext_link: https://writeydrawey.site
+role: Design & dev
 ---
 
-<div class="photo-row">
-    <img style="max-width: 50em;" src="images/wd/wd-clay-1.png" />
+<div class="photo-row content-width content-offset">
+    <img src="images/wd/wd-clay-1.png" />
 </div>
 
 <ul class="article-list content-width content-offset">
@@ -70,13 +72,13 @@ title: writey drawey
 </ul>
 
 
-<div class="case-study-ui-images">
-    <img style="max-width: 40em;" src="images/wd/8.png" />
+<div class="case-study-ui-images content-width content-offset">
+    <img style="" src="images/wd/8.png" />
     <img style="max-height: 30em;" src="images/wd/1.png" />
     <img style="max-height: 30em;" src="images/wd/2.png" />
     <img style="max-height: 30em;" src="images/wd/3.png" />
     <img style="max-height: 30em;" src="images/wd/4.png" />
     <img style="max-height: 30em;" src="images/wd/5.png" />
     <img style="max-height: 30em;" src="images/wd/6.png" />
-    <img style="max-width: 40em;" src="images/wd/7.png" />
+    <img style="" src="images/wd/7.png" />
 </div>

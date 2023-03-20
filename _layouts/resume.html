@@ -22,7 +22,8 @@ layout: default
     Professional Experience
   </h2>
   <ul class="article-list content-width">
-    {% for p in site.experience %}
+    {% assign ps = site.experience | sort: 'date' | reverse %}
+    {% for p in ps  %}
     {% include resume-li.html project=p description=true %}
     {%- endfor -%}
   </ul>

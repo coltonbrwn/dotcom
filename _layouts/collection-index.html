@@ -5,8 +5,12 @@ layout: default
 {%- include header-wide.html -%}
 
 <div class="resume">
-
+  
   {{ content }}
+
+  <h2 class="post-list-heading embolden">
+    {{ page.title }}
+  </h2>
 
   <ul class="article-list content-width fade-in">
     {% assign collection = site[page.collection] | sort: "date" | reverse %}

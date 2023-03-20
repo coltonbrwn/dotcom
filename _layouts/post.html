@@ -14,14 +14,29 @@
           <h2 class="embolden">
             {{ page.description }}
           </h2>
-          <p class="post-meta" hidden>
+          <p class="post-meta">
             <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              {{ page.date | date: date_format }}
+              <h2>
+                {{ page.date | date: date_format }}
+              </h2>
             </time>
-            {%- if page.author -%}
-              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-            {%- endif -%}</p>
+            {%- if page.role -%}
+              <h2>
+                Role: {{ page.role }}
+              </h2>
+            {%- endif -%}
+            {%- if page.ext_link -%}
+              <div class="content-width content-offset">
+                <a class="bubble view-site" target="_blank" href="{{ page.ext_link }}">
+                    View Site
+                </a>
+              </div>
+            {%- endif -%}
+          </p>
+
+
+
         </header>
       
         <div class="post-content" itemprop="articleBody">

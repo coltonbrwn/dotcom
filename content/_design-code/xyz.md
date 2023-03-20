@@ -10,8 +10,13 @@ role: Founder / Designer / Developer
 title: "XYZ.church"
 hasContent: true
 isSelectedWork: 1
-
+ext_link: http://xyz.church
 ---
+
+<div class="photo-row content-offset">
+    <img style="max-height: 20em;" src="images/xyz-mock-1.png" />
+    <img style="max-height: 20em;" src="images/xyz-mock-2.png" />
+</div>
 
 <ul class="article-list content-width content-offset">
     <li class="article-list__title-block">
@@ -26,11 +31,6 @@ isSelectedWork: 1
     </li>
 </ul>
 
-<div class="photo-row content-offset">
-    <img style="max-height: 20em;" src="images/xyz-mock-1.png" />
-    <img style="max-height: 20em;" src="images/xyz-mock-2.png" />
-</div>
- 
 <ul class="article-list content-width content-offset">
     <li class="article-list__title-block">
         <div class="item_description">
