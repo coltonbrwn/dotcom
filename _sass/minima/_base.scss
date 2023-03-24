@@ -112,9 +112,9 @@ a {
   color: $text-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($text-color, 15%);
-  }
+  // &:visited {
+  //   color: rgb(93, 0, 93);
+  // }
 
   &:hover {
     color: $text-color;

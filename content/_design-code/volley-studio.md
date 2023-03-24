@@ -16,7 +16,6 @@ ext_link: https://volley.archive.coltonbrown.com
     <img style="max-height: 30em;" src="images/volley/volley-cover.png" />
 </div>
 
-
 <ul class="article-list content-width content-offset">
     <li class="article-list__title-block">
         <div class="item_date">
@@ -24,18 +23,18 @@ ext_link: https://volley.archive.coltonbrown.com
         </div>
         <div class="item_description">
             <p>
-                Brooklyn-based Volley Studio specializes in high-quality 3D renderings for architects and developers. I created a new website that displays Volly’s work in an unconventional and memorable way.            
+                I created a new portfolio site for Volley, a Brooklyn-based studio specializing in high-quality 3D renderings for architects and real estate developers.
             </p>
         </div>
     </li>
     <img style="max-height: 30em;" class="push-left-1" src="images/volley/volley-process.png" />
     <li class="article-list__title-block">
         <div class="item_date">
-            <h2>Process</h2>
+            <h2>Concept</h2>
         </div>
         <div class="item_description">
             <p>
-                We were interested in presenting Volley’s work as a series of overlapping images that could be moved around the screen freely. After a handful of rounds of design, prototyping, and feedback, we evolved this concept to be more simple and less demanding of the user.            
+                We were interested in presenting Volley’s work as a series of overlapping images that could be moved around the screen freely. After a handful of rounds of design, prototyping, and feedback, we landed on a a simpler design in which images shuffle like a stack of cards.
             </p>
         </div>
     </li>
@@ -55,17 +54,17 @@ ext_link: https://volley.archive.coltonbrown.com
     <li class="article-list__title-block">
         <div class="item_description">
             <p>
-                We were interested in presenting Volley’s work as a series of overlapping images that could be moved around the screen freely. After a handful of rounds of design, prototyping, and feedback, we evolved this concept to be more simple and less demanding of the user.            
+                In addition to using the stack concept throughout, the site is full of fun details, from the custom scroll bar to the light/dark mode button on the bottom right of the screen.
             </p>
         </div>
         <div class="item_date">
-            <h2>Concept</h2>
+            <h2>Design</h2>
         </div>
     </li>
 </ul>
 
 
-<div class="case-study-ui-images">
+<div class="content-width content-offset">
     <img style="max-height: 30em;" src="images/volley/volley-ui-1.png" />
     <img style="max-height: 30em;" src="images/volley/volley-ui-2.png" />
     <img style="max-height: 30em;" src="images/volley/volley-ui-3.png" />
