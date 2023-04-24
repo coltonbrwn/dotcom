@@ -23,7 +23,7 @@ ext_link: https://volley.archive.coltonbrown.com
         </div>
         <div class="item_description">
             <p>
-                I created a new portfolio site for Volley, a Brooklyn-based studio specializing in high-quality 3D renderings for architects and real estate developers.
+                I created a portfolio site for Volley, a Brooklyn-based studio specializing in high-quality 3D renderings for architects and developers.
             </p>
         </div>
     </li>

@@ -13,8 +13,8 @@ ext_link: https://writeydrawey.site
 role: Design & dev
 ---
 
-<div class="photo-row content-width content-offset">
-    <img src="images/wd/wd-clay-1.png" />
+<div class="photo-row content-wide">
+    <img src="images/wd/hero.png" />
 </div>
 
 <ul class="article-list content-width content-offset">

@@ -85,6 +85,9 @@ a:hover {
     width: auto;
   }
 }
+.content-wide {
+  width: $content-width + 4*$spacing-unit;
+}
 .content-offset {
   padding-left: 4*$spacing-unit;
   @include media-query($on-lg) {
@@ -207,8 +210,8 @@ header, .home, .resume, footer, .cv {
   }
 }
 
-.home {
-  margin-top: 2 * $spacing-unit;
+.about {
+  margin-top: 2*$spacing-unit;
   li.article-list__title-block {
     margin-bottom: 2 * $spacing-unit;
   }
@@ -354,6 +357,11 @@ h6 {
   .cv {
     padding-left:  $spacing-unit;
   }
+}
+
+.home-vert-space {
+  padding: 2*$spacing-unit 0 3*$spacing-unit 0;
+
 }
 
 .case-study-ui-images {
