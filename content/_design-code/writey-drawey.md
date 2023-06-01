@@ -1,5 +1,5 @@
 ---
-date_str: 2021
+date_str: 5.2021
 date: 2021.05.06
 description: an online version of the pen-and-paper game telestrations
 group_id: 7
@@ -14,7 +14,7 @@ role: Design & dev
 ---
 
 <div class="photo-row content-wide">
-    <img src="images/wd/hero.png" />
+    <img src="images/wd/gradient-blob.png" />
 </div>
 
 <ul class="article-list content-width content-offset">
@@ -41,7 +41,7 @@ role: Design & dev
 </ul>
 
 <div class="photo-row">
-    <img style="max-height: 40em;" src="images/wd/wd-images.png" />
+    <img style="" src="images/wd/wd-screens.png" />
 </div>
 
 <ul class="article-list content-width">
@@ -53,10 +53,6 @@ role: Design & dev
         </div>
     </li>
 </ul>
-
-<div class="photo-row content-offset">
-    <img style="width: 60em;" src="images/wd/wd-screens.png" />
-</div>
 
 <ul class="article-list content-width">
     <li class="article-list__title-block">

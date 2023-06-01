@@ -1,7 +1,7 @@
 ---
 date_str: 02.2022
 date: 2022.02.11
-description: an experimental funding model for indepndent music
+description: a new funding model for independent music
 group_id: 8
 image: /assets/images/XYZ-mock.webp
 layout: post
@@ -11,11 +11,11 @@ title: "XYZ.church"
 hasContent: true
 isSelectedWork: 1
 ext_link: http://xyz.church
+needs_description_line_break: true
 ---
 
-<div class="photo-row content-offset">
-    <img style="max-height: 20em;" src="images/xyz-mock-1.png" />
-    <img style="max-height: 20em;" src="images/xyz-mock-2.png" />
+<div class="photo-row content-wide">
+    <img style="" src="images/xyz/hero.png" />
 </div>
 
 <ul class="article-list content-width content-offset">

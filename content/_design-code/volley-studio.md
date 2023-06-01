@@ -1,5 +1,5 @@
 ---
-date_str: 2019
+date_str: 11.2019
 date: 2019-12-12
 description: an interactive portfolio website
 group_id: 5
@@ -10,6 +10,7 @@ layout: post
 render: true
 title: "volley.studio"
 ext_link: https://volley.archive.coltonbrown.com
+needs_description_line_break: true
 ---
 
 <div class="photo-row content-width content-offset">

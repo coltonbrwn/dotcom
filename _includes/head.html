@@ -13,10 +13,10 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <script type="text/javascript">
-    window.onload = function() {
+    window.setTimeout(function() {
       [].forEach.call(document.querySelectorAll('.fade-in'), function(el) {
         el.style.opacity = '1';
       })
-    }
+    }, 10)
   </script>
 </head>

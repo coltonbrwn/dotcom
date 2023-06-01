@@ -1,15 +1,16 @@
 {% assign p = include.project %}
 {% assign description = include.description %}
 <li>
-    <div class="item_date">
-      {{ p.date_str }}
-    </div>
+  <div class="item_date">
+    {{ p.date_str }}
+  </div>
+  <a href="{{ p.url | relative_url }}">
     <div class="item_link embolden">
       <h3>
         {%- if (p.hasContent) -%}
-          <a href="{{ p.url | relative_url }}">
+          <span>
             {{ p.title }}
-          </a>
+          </span>
         {%- else -%}
           <span>
             {{ p.title }}
@@ -17,7 +18,11 @@
         {%- endif -%}
       </h3>
     </div>
+    {%- if p.needs_description_line_break -%}
+      <br/>
+    {%- endif -%}
     {%- if p.description and description -%}
       <div class="item_description">{{p.description}}</div>
     {%- endif -%}
+  </a>
 </li>
