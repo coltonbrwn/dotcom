@@ -1,7 +1,7 @@
 ---
 date_str: 5.2021
 date: 2021.05.06
-description: an online version of the pen-and-paper game telestrations
+description: connecting friends with a free interactive web game
 group_id: 7
 hasContent: true
 image: /assets/images/writey-drawey-00.png

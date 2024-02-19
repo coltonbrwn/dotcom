@@ -19,10 +19,12 @@ hasContent: true
             <h2></h2>
         </div>
     </li>
+    <li>
+        <div class="item_description">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3HH9D1h-l-Z6OI6xnkuGKoJP4LeFUWnbAMf8nQbB_WnsblilyerhEPIwY5oJMbj-7ZVvq8VRIsdC3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="item_date">
+            <h2>Slideshow</h2>
+        </div>
+    </li>
 </ul>
-
-
-<div class="content-offset">
-    <h2>Final Slide Show:</h2>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3HH9D1h-l-Z6OI6xnkuGKoJP4LeFUWnbAMf8nQbB_WnsblilyerhEPIwY5oJMbj-7ZVvq8VRIsdC3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>

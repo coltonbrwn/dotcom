@@ -1,13 +1,13 @@
 ---
 date_str: 02.2022
 date: 2022.02.11
-description: a new funding model for independent music
+description: researching new funding models for independent music
 group_id: 8
 image: /assets/images/XYZ-mock.webp
 layout: post
 render: true
 role: Founder / Designer / Developer
-title: "XYZ.church"
+title: "xyz.church"
 hasContent: true
 isSelectedWork: 1
 ext_link: http://xyz.church

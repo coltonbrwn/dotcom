@@ -29,9 +29,9 @@
 }
 
 a:hover {
-  background-color: rgba(251, 255, 0, 0.252);
+
   > * {
-    background-color: rgba(251, 255, 0, 0.252);
+    background-color: rgba(176, 255, 239, 0.252);
   }
 }
 
@@ -55,7 +55,7 @@ a:hover {
       }
     }
     &.socials {
-      margin-top: 6*$spacing-unit;
+      margin-top: 2*$spacing-unit;
       a {
         padding: 0 0.5em;
         &:first-of-type {
@@ -237,6 +237,7 @@ header, .home, .resume, footer, .cv, .about {
 
 .cv__picker {
   margin-bottom: $spacing-unit;
+  margin-top: $spacing-unit;
 }
 
 .bubble {
@@ -375,7 +376,7 @@ h6 {
 }
 
 .home-vert-space {
-  padding: 2*$spacing-unit 0 3*$spacing-unit 0;
+  padding: 2*$spacing-unit 0 2*$spacing-unit 0;
 
 }
 

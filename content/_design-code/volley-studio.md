@@ -1,7 +1,7 @@
 ---
 date_str: 11.2019
 date: 2019-12-12
-description: an interactive portfolio website
+description: an interactive portfolio website for a creative company
 group_id: 5
 hasContent: true
 image: /assets/images/glyph_land_1.webp
