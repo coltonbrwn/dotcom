@@ -42,7 +42,7 @@ a:hover {
       // cursor: pointer;
       position: relative;
       margin-bottom: 1/2 * $spacing-unit;
-      padding-left: 4 * $spacing-unit;  
+      padding-left: 3 * $spacing-unit;  
       padding: -10px;
       @include media-query($on-palm) {
         padding-left: 0;
@@ -110,7 +110,6 @@ a:hover {
 }
 .cv .article-list li {
   margin-bottom: 0;
-  padding-left: 4 * $spacing-unit;
   @include media-query($on-palm) {
     padding: 0;
   }
@@ -122,14 +121,13 @@ a:hover {
   } 
 }
 .embolden {
-    font-weight: bold;
+    // font-weight: bold;
 }
 .caps {
   text-transform: uppercase;
 }
 .item_link {
     position: relative;
-    font-weight: bold;
 }
 .item_description {
   // cursor: pointer;

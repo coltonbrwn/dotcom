@@ -5,5 +5,5 @@ group_id: 1
 layout: 'post'
 resumeEducationLine: true
 render: true
-title:  B.S. Physics, Computer Science @ Duke
+title:  B.S. Physics, Computer Science at Duke University
 ---

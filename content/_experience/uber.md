@@ -5,7 +5,7 @@ description: built external and internal full-stack web systems for a number of 
 group_id: 2
 layout: post
 render: true
-title: "fullstack developer at uber"
+title: "fullstack developer @ Uber"
 ---
 
 ### [Uber Technologies](http://www.uber.com/)

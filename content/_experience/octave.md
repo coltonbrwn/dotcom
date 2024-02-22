@@ -5,5 +5,5 @@ description: responsible for designing user-facing digital experiences for NYC-b
 group_id: 6
 layout: post
 render: true
-title: "product design at octave"
+title: "product designer @ Octave"
 ---

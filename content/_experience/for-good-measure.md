@@ -5,7 +5,7 @@ description: created websites and branding packages for a range of clients along
 group_id: 5
 layout: post
 render: true
-title: "partner & creative technologist at 4GM"
+title: "partner @ For Good Measure"
 ---
 
 ### [For Good Measure](http://forgoodmeasure.us/)

@@ -5,7 +5,7 @@ description: built an SEO-optimized web framework, designed and executed an API-
 group_id: 2
 layout: post
 render: true
-title: "frontend developer at honey"
+title: "frontend developer @ Honey"
 ---
 
 ### [Honey](http://joinhoney.com/)

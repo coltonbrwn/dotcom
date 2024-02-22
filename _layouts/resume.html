@@ -7,24 +7,20 @@ layout: default
 <h1>Resume</h1>
 
 <div class="resume fade-in">
-  <h2 class="post-list-heading embolden">
-    Selected Projects
-  </h2>
-  <ul class="article-list content-width">
-    {% assign ps = site.design-code | sort: 'date' | reverse %}
-    {% for p in ps %}
-    {%- if p.isSelectedWork == 1 -%}
-      {% include resume-li.html project=p description=true %}
-    {%- endif -%}
-    {%- endfor -%}
-  </ul>
+
+  <p class="content-width">
+    <br/>
+    <br/>
+    Drawing on 10 years of experience in the technology field, I provide clients with a range of services in design, engineering, product, and fundraising.
+  </p>
+
   <h2 class="post-list-heading embolden">
     Professional Experience
   </h2>
   <ul class="article-list content-width">
     {% assign ps = site.experience | sort: 'date' | reverse %}
     {% for p in ps  %}
-    {% include resume-li.html project=p description=true %}
+    {% include resume-li.html project=p description=true url="/no" %}
     {%- endfor -%}
   </ul>
   <h2 class="post-list-heading embolden">
@@ -38,5 +34,3 @@ layout: default
     {%- endfor -%}
   </ul>
 </div>
-
-{%- include canvas.html -%}
