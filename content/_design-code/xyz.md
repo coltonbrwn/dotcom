@@ -14,10 +14,6 @@ ext_link: http://xyz.church
 needs_description_line_break: true
 ---
 
-<div class="photo-row content-wide">
-    <img style="" src="images/xyz/hero.png" />
-</div>
-
 <ul class="article-list content-width content-offset">
     <li class="article-list__title-block">
         <div class="item_description">
