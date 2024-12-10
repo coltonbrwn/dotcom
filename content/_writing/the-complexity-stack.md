@@ -6,6 +6,7 @@ link: https://docs.google.com/presentation/d/1VRSQp-fZrXdUYYz3kwn92WWiVtpLu5zdjF
 render: true
 title: Guest Speaker @ On Deck Fellowship
 group_id: 7
+hasContent: true
 ---
 **Speaking the language of our counterparts**
 

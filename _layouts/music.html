@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{%- include header-wide.html -%}
+
+<div class="music">
+
+    <div class="home-vert-space">
+        <p>
+            Collection of official releases
+        </p>
+    </div>
+
+    <ul class="article-list content-width">
+        {% assign posts = site.music | sort: "date" | reverse %}
+        {% for p in posts  %}
+            {% include music-li.html project=p description=true %}
+        {% endfor %}
+    </ul>
+  
+</div>
+

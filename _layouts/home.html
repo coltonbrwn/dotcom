@@ -12,17 +12,5 @@ layout: default
             <br/>♑︎ ♏︎ ♍︎
         </p>
     </div>
-
-    <h2 class="post-list-heading embolden">
-    Projects
-    </h2>
-    <ul class="article-list content-width">
-        {% assign posts = site.design-code | sort: "date" | reverse %}
-        {% for p in posts  %}
-        {%- if p.isSelectedWork == 1 -%}
-            {% include resume-li.html project=p description=true %}
-        {%- endif -%}
-        {% endfor %}
-    </ul>
 </div>
 

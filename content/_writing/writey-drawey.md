@@ -6,6 +6,7 @@ layout: post
 render: true
 link: https://medium.com/p/fa485eed546e
 title: The Game That Almost Died During Covid
+hasContent: true
 ---
 
 <figure>

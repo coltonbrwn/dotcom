@@ -12,7 +12,7 @@ plugins:
 
 collections:
   music:
-    output: true
+    output: false
   writing:
     output: true
   design-code:
