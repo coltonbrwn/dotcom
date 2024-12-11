@@ -11,7 +11,6 @@ render: true
 title: writey drawey
 ext_link: https://writeydrawey.site
 role: Design & dev
-needs_description_line_break: true
 ---
 
 <div class="photo-row content-wide">

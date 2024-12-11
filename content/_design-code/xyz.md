@@ -11,7 +11,6 @@ title: "xyz.church"
 hasContent: true
 isSelectedWork: 1
 ext_link: http://xyz.church
-needs_description_line_break: true
 ---
 
 <ul class="article-list content-width content-offset">

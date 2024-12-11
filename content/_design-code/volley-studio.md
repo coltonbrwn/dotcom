@@ -10,7 +10,6 @@ layout: post
 render: true
 title: "volley.studio"
 ext_link: https://volley.archive.coltonbrown.com
-needs_description_line_break: true
 ---
 
 <div class="photo-row content-width content-offset">

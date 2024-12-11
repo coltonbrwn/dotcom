@@ -11,8 +11,6 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  music:
-    output: false
   writing:
     output: true
   design-code:

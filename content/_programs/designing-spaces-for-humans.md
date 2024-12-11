@@ -3,6 +3,7 @@ date: 01/1/2023
 date_str: '01.2023'
 layout: post
 title: "participant @ designing spaces for humans"
+description: "particpated in a 6-week architecture program, learning basics of architectural thinking, floor plan analysis, and software rendering in Rino."
 render: true
 group_id: 9
 hasContent: true

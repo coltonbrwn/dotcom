@@ -8,7 +8,7 @@ layout: post
 render: true
 role: Artist / Developer
 title: "glyph.land"
-isSelectedWork: 1
+isSelectedWork: 0
 hasContent: true
 ---
 

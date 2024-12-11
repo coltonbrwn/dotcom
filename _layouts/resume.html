@@ -4,23 +4,35 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<h1>Resume</h1>
+<h2>Resume</h2>
 
 <div class="resume fade-in">
 
   <p class="content-width">
     <br/>
     <br/>
-    Drawing on 10 years of experience in the technology field, I provide clients with a range of services in design, engineering, product, and fundraising.
+    I've learned lots of random stuff through years of doing; sometimes my skills and perspectives can help others make better decisions.
   </p>
+  
+  <h2 class="post-list-heading embolden">
+    Projects
+  </h2>
+  <ul class="article-list content-width">
+    {% assign projects = site.design-code | sort: 'date' | reverse %}
+    {% for p in projects  %}
+    {%- if p.isSelectedWork == 1 -%}
+      {% include resume-li.html project=p description=true %}
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
 
   <h2 class="post-list-heading embolden">
     Professional Experience
   </h2>
   <ul class="article-list content-width">
-    {% assign ps = site.experience | sort: 'date' | reverse %}
-    {% for p in ps  %}
-    {% include resume-li.html project=p description=true url="/no" %}
+    {% assign experience = site.experience | sort: 'date' | reverse %}
+    {% for p in experience  %}
+    {% include resume-li.html project=p description=true %}
     {%- endfor -%}
   </ul>
   <h2 class="post-list-heading embolden">
@@ -29,7 +41,7 @@ layout: default
   <ul class="article-list content-width">
     {% for p in site.programs %}
     {%- if p.resumeEducationLine -%}
-      {% include resume-li.html project=p%}
+      {% include resume-li.html project=p description=true %}
     {%- endif -%}
     {%- endfor -%}
   </ul>
