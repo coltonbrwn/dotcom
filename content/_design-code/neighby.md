@@ -1,7 +1,6 @@
 ---
 date_str: "01.2019"
 date: 2019-01-22
-group_id: 5
 layout: post
 render: true
 title: Neighby (design & dev)

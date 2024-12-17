@@ -2,7 +2,6 @@
 date_str: 2017&#8212;19
 date: 2019-01-05
 description: created websites and branding packages for a range of clients alongside two graphic designers; aided in business oprerations and client acquisition
-group_id: 5
 layout: post
 render: true
 title: "developer & partner @ For Good Measure"

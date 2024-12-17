@@ -1,7 +1,6 @@
 ---
 date: 2017-12-17
 date_str: 12.2017
-group_id: 3
 layout: post
 render: true
 title: "AIVA"

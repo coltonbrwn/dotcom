@@ -6,10 +6,10 @@
   </div>
   <div class="item_link embolden">
     <h3>
-      {%- if (p.hasContent) -%}
-        <span>
+      {%- if (p.ext_link) -%}
+        <a href={{ p.ext_link }} target="blank">
           {{ p.title }}
-        </span>
+        </a>
       {%- else -%}
         <span>
           {{ p.title }}

@@ -121,6 +121,9 @@ a:hover {
 }
 .item_link {
     position: relative;
+    h3 {
+      text-transform: capitalize;
+    }
 }
 .item_description {
   // cursor: pointer;
@@ -204,6 +207,9 @@ header, .home, .resume, footer, .cv, .about {
   z-index: 1;
   a {
     pointer-events: all;
+    &:hover {
+      text-decoration: underline;
+    };
   }
 }
 .header-nav {

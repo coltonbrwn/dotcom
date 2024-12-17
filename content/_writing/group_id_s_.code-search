@@ -1,0 +1,155 @@
+# Query: group_id:\\s.*
+# Flags: RegExp IgnoreExcludeSettings
+# ContextLines: 1
+
+30 results - 30 files
+
+content/_design-code/9mr.md:
+  3  date: 2020-05-08
+  4: group_id: 6
+  5  layout: post
+
+content/_design-code/aiva.md:
+  3  date_str: 12.2017
+  4: group_id: 3
+  5  layout: post
+
+content/_design-code/better-angels.md:
+  3  date: 2018-03-14
+  4: group_id: 4
+  5  layout: post
+
+content/_design-code/blueland.md:
+  3  date: 2019-04-26
+  4: group_id: 5
+  5  layout: post
+
+content/_design-code/bwp6.md:
+  3  date: 2020-08-03
+  4: group_id: 6
+  5  layout: 'post'
+
+content/_design-code/coltonbrown.md:
+  3  date: 2020-03-31
+  4: group_id: 6
+  5  layout: post
+
+content/_design-code/creative-footprint.md:
+  3  date: "2018-06-14"
+  4: group_id: 4
+  5  layout: post
+
+content/_design-code/fey.md:
+  3  date: 2019-06-20
+  4: group_id: 5
+  5  layout: post
+
+content/_design-code/flourish.md:
+  3  date: "2018-12-15"
+  4: group_id: 4
+  5  layout: post
+
+content/_design-code/forgoodmeasure.md:
+  3  date: 2018.03.08
+  4: group_id: 4
+  5  layout: 'post'
+
+content/_design-code/glyph-land.md:
+  4  description: a meditation on globalization, and development, computer vision.
+  5: group_id: 7
+  6  image: /assets/images/glyph_land_1.webp
+
+content/_design-code/hope-floats.md:
+  3  date: "2017-09-27"
+  4: group_id: 3
+  5  layout: post
+
+content/_design-code/neighby.md:
+  3  date: 2019-01-22
+  4: group_id: 5
+  5  layout: post
+
+content/_design-code/ooo.md:
+  3  date: "2018-10-16"
+  4: group_id: 4
+  5  layout: post
+
+content/_design-code/radical-machines.md:
+  3  date: "2018-05-18"
+  4: group_id: 4
+  5  layout: post
+
+content/_design-code/seekpanda.md:
+  3  date: 2015-08-01
+  4: group_id: 2
+  5  layout: post
+
+content/_design-code/sex-reporter.md:
+  3  date: "2017-11-04"
+  4: group_id: 3
+  5  layout: post
+
+content/_design-code/volley-studio.md:
+  4  description: an interactive portfolio website for a creative company
+  5: group_id: 5
+  6  hasContent: true
+
+content/_design-code/writey-drawey.md:
+  4  description: connecting friends with a free interactive web game
+  5: group_id: 7
+  6  hasContent: true
+
+content/_design-code/xyz.md:
+  4  description: researching new funding models for independent music
+  5: group_id: 8
+  6  image: /assets/images/XYZ-mock.webp
+
+content/_experience/consultant.md:
+  3  date: 2024-01-01
+  4: group_id: 5
+  5  layout: post
+
+content/_experience/for-good-measure.md:
+  4  description: created websites and branding packages for a range of clients alongside two graphic designers; aided in business oprerations and client acquisition
+  5: group_id: 5
+  6  layout: post
+
+content/_experience/honey.md:
+  4  description: built an SEO-optimized web framework, designed and executed an API-driven architecture as an early hire for LA-based coupon startup
+  5: group_id: 2
+  6  layout: post
+
+content/_experience/octave.md:
+  4  description: responsible for designing user-facing digital experiences for NYC-based mental health platform
+  5: group_id: 6
+  6  layout: post
+
+content/_experience/uber.md:
+  4  description: built external and internal full-stack web systems for a number of Uber initiatives out of the New York office
+  5: group_id: 2
+  6  layout: post
+
+content/_programs/adp.md:
+  3  date_str: '2008'
+  4: group_id: 1
+  5  layout: 'post'
+
+content/_programs/aln.md:
+  3  date: 2022.08.20
+  4: group_id: 8
+  5  layout: 'post'
+
+content/_programs/duke.md:
+  3  date: 2013-05-01
+  4: group_id: 1
+  5  layout: 'post'
+
+content/_writing/the-complexity-stack.md:
+  7  title: Guest Speaker @ On Deck Fellowship
+  8: group_id: 7
+  9  hasContent: true
+
+content/_writing/writey-drawey.md:
+  3  date: 2021.05.06
+  4: group_id: 7
+  5  layout: post

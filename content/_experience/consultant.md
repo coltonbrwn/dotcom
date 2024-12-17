@@ -1,7 +1,6 @@
 ---
 date_str: "2024—p."
 date: 2024-01-01
-group_id: 5
 layout: post
 render: false
 title: "independent consultant"

@@ -2,14 +2,11 @@
 date_str: 04.2021
 date: 2021-04-11
 description: a meditation on globalization, and development, computer vision.
-group_id: 7
 image: /assets/images/glyph_land_1.webp
 layout: post
 render: true
-role: Artist / Developer
 title: "glyph.land"
 isSelectedWork: 0
-hasContent: true
 ---
 
 <img src="images/your-art-aqui-wide.jpeg" />
