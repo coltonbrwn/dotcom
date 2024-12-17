@@ -4,19 +4,26 @@ layout: default
 
 {%- include header-wide.html -%}
 
-<div class="resume fade-in">
+<div class="resume">
 
   {%- include cv-picker.html -%}
 
-  <h2 class="post-list-heading embolden">
-    Selected Projects
-  </h2>
-  <ul class="article-list content-width">
-    {% assign posts = site.design-code | sort: "date" | reverse %}
-    {% for p in posts  %}
-    {%- if p.isSelectedWork == 1 -%}
-      {% include resume-li.html project=p description=true %}
+  {% assign all_posts = "" | split: ',' %}
+  {%- for collection in site.collections -%}
+    {%- for item in site[collection.label] -%}
+      {%- if item.render -%}
+        {% assign all_posts = all_posts | push: item %}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  
+  {%- assign sorted_posts = all_posts | sort: "date" | reverse -%}
+  <ul class="article-list content-width fade-in">
+    {%- for item in sorted_posts -%}
+    {%- if item.render -%}
+      {%- include resume-li.html project=item description=true -%}
     {%- endif -%}
-    {% endfor %}
+    {%- endfor -%}
   </ul>
 </div>
+

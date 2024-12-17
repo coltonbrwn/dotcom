@@ -10,9 +10,6 @@
       <article class="post h-entry fade-in" itemscope itemtype="http://schema.org/BlogPosting">
 
         <header class="post-header">
-          <p>
-            <a href="/CV">← CV</a>
-          </p>
           <h1 class="post-title p-name" itemprop="name headline">
             {{ page.title | escape }}
           </h1>
@@ -26,33 +23,13 @@
                 {{ page.date | date: date_format }}
               </h2>
             </time>
-            {%- if page.role -%}
-              <h2>
-                Role: {{ page.role }}
-              </h2>
-            {%- endif -%}
-            {%- if page.ext_link -%}
-              <div class="content-width content-offset">
-                <a class="bubble view-site" target="_blank" href="{{ page.ext_link }}">
-                    View Site
-                </a>
-              </div>
-            {%- endif -%}
           </p>
-
-
-
         </header>
       
         <div class="post-content" itemprop="articleBody">
-          {%- if page.hasContent -%}
-            {{ content }}
-          {%- else -%}
-            {%- include coming-soon.html -%}
-          {%- endif -%}
+          {{ content }}
         </div>
-      
-        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
       </article>
     
       {%- include footer.html -%}

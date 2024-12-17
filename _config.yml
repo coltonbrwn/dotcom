@@ -15,10 +15,11 @@ collections:
     output: true
   design-code:
     output: true
-    sort_by: isSelectedWork
   experience:
     output: true
   programs:
+    output: true
+  art-music:
     output: true
 
   

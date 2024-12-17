@@ -3,29 +3,7 @@ date: 01/1/2023
 date_str: '01.2023'
 layout: post
 title: "participant @ designing spaces for humans"
-description: "particpated in a 6-week architecture program, learning basics of architectural thinking, floor plan analysis, and software rendering in Rino."
+description: "particpated in a 6-week architecture program, practicing architectural thinking, floor plan analysis, and rendering in Rhino."
 render: true
-group_id: 9
-hasContent: true
+ext_link: 'https://cv.coltonbrown.com/spaces-for-humans'
 ---
-
-<ul class="article-list content-width">
-    <li class="article-list__title-block">
-        <div class="item_description">
-            <p>
-                In January of 2023, I particpated in a 6-week architecture program hosted by Index Coop. We covered the basics of architectural thinking, analyzed floor plans, and learned to use Rino for rendering.
-            </p>
-        </div>
-        <div class="item_date">
-            <h2></h2>
-        </div>
-    </li>
-    <li>
-        <div class="item_description">
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3HH9D1h-l-Z6OI6xnkuGKoJP4LeFUWnbAMf8nQbB_WnsblilyerhEPIwY5oJMbj-7ZVvq8VRIsdC3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-        <div class="item_date">
-            <h2>Slideshow</h2>
-        </div>
-    </li>
-</ul>

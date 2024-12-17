@@ -16,7 +16,7 @@ layout: default
     {% assign collection = site[page.collection] | sort: "date" | reverse %}
     {% for p in collection %}
     {%- if p.render -%}
-        {% include resume-li.html project=p description=false %}
+        {% include resume-li.html project=p description=true %}
     {%- endif -%}
     {% endfor %}
   </ul>

@@ -220,7 +220,7 @@ header, .home, .resume, footer, .cv, .about {
 }
 
 .about {
-  margin-top: 2*$spacing-unit;
+  margin-top: 1*$spacing-unit;
   li.article-list__title-block {
     margin-bottom: 2 * $spacing-unit;
   }
@@ -243,7 +243,7 @@ header, .home, .resume, footer, .cv, .about {
   white-space: nowrap;
   border-radius: $spacing-unit / 2;
   margin-right: $spacing-unit / 4;
-  line-height: 3;
+  line-height: 2;
   &.active {
     background: rgb(90, 90, 90);
     border-color:  rgb(90, 90, 90);
