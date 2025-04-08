@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{%- include header-wide.html -%}
+
+<div class="resume fade-in">
+  
+  <h2 class="post-list-heading embolden">
+    Professional Experience
+  </h2>
+  <ul class="article-list content-width">
+    {% assign experience = site.experience | sort: 'date' | reverse %}
+    {% for p in experience  %}
+    {% include resume-li.html project=p description=true %}
+    {%- endfor -%}
+  </ul>
+  <h2 class="post-list-heading embolden">
+    Education
+  </h2>
+  <ul class="article-list content-width">
+    {% for p in site.programs %}
+    {%- if p.resumeEducationLine -%}
+      {% include resume-li.html project=p description=true %}
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</div>
