@@ -1,7 +1,7 @@
 ---
 date_str: 2015&#8212;17
 date: 2017-04-01
-description: built external and internal full-stack web systems for a number of Uber initiatives out of the New York office
+description: built external and internal full-stack web systems for a number of Uber initiatives out of the New York office.
 layout: post
 render: true
 title: "developer @ Uber"

@@ -4,5 +4,5 @@ date: 2019-06-20
 layout: post
 render: true
 title: Fey Arts
-isSelectedWork: 0
+description: "Designed and built a marketing website for an arts festival in France."
 ---

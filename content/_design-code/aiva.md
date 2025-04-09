@@ -2,9 +2,8 @@
 date: 2017-12-17
 date_str: 12.2017
 layout: post
-render: true
+render: false
 title: "AIVA"
-isSelectedWork: 0
 ---
 
 ## Aiva Health

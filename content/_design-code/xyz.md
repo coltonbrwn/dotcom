@@ -1,13 +1,10 @@
 ---
 date_str: 02.2022
 date: 2022.02.11
-description: researching new funding models for independent music
-image: /assets/images/XYZ-mock.webp
+description: Founded a speculative organization to research new funding models for independent music.
 layout: post
 render: true
-role: Founder / Designer / Developer
 title: "xyz.church"
-isSelectedWork: 1
 ext_link: http://xyz.church
 ---
 

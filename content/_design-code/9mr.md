@@ -4,5 +4,5 @@ date: 2020-05-08
 layout: post
 render: true
 title: 9millionreasons.nyc
-isSelectedWork: 0
+description: as a freelancer, I built a custom website for a new york based food bank.
 ---

@@ -4,5 +4,6 @@ date: 2020-08-03
 layout: 'post'
 render: true
 title:  birthdaywinepicnic.net
-isSelectedWork: 0
+description: "An interactive web-based birthday card for a friend."
+render: false
 ---

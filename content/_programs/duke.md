@@ -5,5 +5,5 @@ layout: 'post'
 resumeEducationLine: true
 render: true
 title: Duke University
-description: "B.S. Physics, Computer Science"
+description: Bachelors in Physics + Computer Science w/ concentrated electives in Visual Studies.
 ---

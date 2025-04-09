@@ -1,19 +1,16 @@
 ---
 date_str: 5.2021
 date: 2021.05.06
-description: connecting friends with a free interactive web game
-image: /assets/images/writey-drawey-00.png
-isSelectedWork: 1
+description: Designed and built a web game connecting friends during the pandemic.
 layout: post
 render: true
 title: writey drawey
-ext_link: https://writeydrawey.site
-role: Design & dev
+no_post: true
 ---
 
-<div class="photo-row content-wide">
-    <img src="images/wd/gradient-blob.png" />
-</div>
+<p>
+    Hi lol
+</p>
 
 <ul class="article-list content-width content-offset">
     <li class="article-list__title-block">

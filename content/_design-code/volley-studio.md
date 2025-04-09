@@ -1,9 +1,7 @@
 ---
 date_str: 11.2019
 date: 2019-12-12
-description: an interactive portfolio website for a creative company
-image: /assets/images/glyph_land_1.webp
-isSelectedWork: 1
+description: Designed and built an interactive portfolio website for an architectural rendering company.
 layout: post
 render: true
 title: "volley.studio"
