@@ -5,7 +5,7 @@ description: Founded a speculative organization to research new funding models f
 layout: post
 render: true
 title: "xyz.church"
-ext_link: http://xyz.church
+ext_link: http://xyz.archive.coltonbrown.com
 ---
 
 <ul class="article-list content-width content-offset">
